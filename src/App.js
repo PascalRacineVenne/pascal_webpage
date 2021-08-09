@@ -1,5 +1,5 @@
 
-import './assets/App.scss';
+import './assets/App.css';
 
 function App() {
   return (
