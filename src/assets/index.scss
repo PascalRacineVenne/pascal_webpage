@@ -1,0 +1,48 @@
+/*// Graphical variables*/
+@import "config/fonts";
+@import "config/colors";
+/*@import "config/bootstrap_variables";*/
+
+/*// Your CSS partials*/
+@import "./app";
+@import "components/button";
+@import "components/contact_card";
+@import "components/footer";
+@import "components/hero";
+@import "components/navbar";
+@import "components/project_card";
+@import "components/skills";
+
+/*body {
+  min-height: 100vh;
+  // min-height: -webkit-fill-available;
+  padding-top: 63px;
+
+}
+html {
+  height: -webkit-fill-available;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center !important;
+}
+*/
+
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/

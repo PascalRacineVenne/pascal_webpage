@@ -1,0 +1,64 @@
+// Import Google fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+// CSS rules to specify families
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Ubuntu Mono', monospace;
+
+// Define fonts for body and headers
+$body-font: "Roboto", "Helvetica", "sans-serif";
+$headers-font: "Roboto", "Helvetica", "sans-serif";
+
+$special-font: "Ubuntu Mono", "monospace";
+
+
+body {
+  font-family: $body-font;
+  color: $primary_light_green;
+}
+
+h1 {
+  font-size: 76px !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+h2 {
+  font-size: 62px !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+h3 {
+  font-size: 48px !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+h4 {
+  font-size: 32px !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+h5 {
+  font-size: 28px !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+p {
+  font-size: 20px !important;
+  padding: 0;
+  margin: 0 !important;
+
+}
+
+li {
+  font-size: 13px !important;
+  font-family: $special-font !important;
+  padding: 0;
+  margin: 0 !important;
+}
