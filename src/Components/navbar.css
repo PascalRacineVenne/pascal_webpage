@@ -1,0 +1,77 @@
+.nav--StyledHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: var(--primary_green);
+  margin: 0px
+}
+
+.nav--StyledNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  counter-reset: item 0;
+  padding: 0px 80px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--StyledLinks {
+  display: flex;
+  align-items: center;
+}
+
+.nav--StyledLinks > ol {
+  display: flex;
+  /*-webkit-box-pack: justify;*/
+  justify-content: space-between;
+  /*-webkit-box-align: center;*/
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.nav--StyledLinks > ol >li {
+  margin: 0 5px;
+  position: relative;
+  counter-increment: item 1;
+}
+
+.nav--StyledLinks > ol >li > a {
+  color: var(--primary_light_green);
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav--StyledLinks > ol >li > a::before {
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color: var(--primary_marron);
+  text-align: right;
+}
+
+.resume-btn {
+    color: var(--primary_marron);
+    background-color: transparent;
+    border: 1px solid var(--primary_marron);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--special-font);
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 15px;
+}

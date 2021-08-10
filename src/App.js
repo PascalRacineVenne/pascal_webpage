@@ -1,5 +1,11 @@
 import React from 'react';
 import Navbar from './Components/navbar.jsx';
+import AboutMe from './Components/about_me.jsx';
+import TechSkills from './Components/tech_skills.jsx';
+import Projects from './Components/projects.jsx';
+import Contact from './Components/contact.jsx';
+
+import Footer from './Components/footer.jsx';
 
 import './assets/App.css';
 
@@ -7,18 +13,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>hello 1 world</h1>
-      <h2>hello 2 world</h2>
-      <h3>hello 3 world</h3>
-      <h4>hello 4 world</h4>
-      <h5>hello 5 world</h5>
-      <p>hello p world</p>
-      <ol>
-        <li>hello 6 world</li>
-        <li>hello 6 world</li>
-        <li>hello 6 world</li>
-        <li>hello 6 world</li>
-      </ol>
+      <div id="content">
+        <div className="main">
+          <AboutMe />
+          <TechSkills />
+          <Projects />
+          <Contact />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

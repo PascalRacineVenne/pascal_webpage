@@ -1,10 +1,20 @@
-import React from 'react'
+import React from 'react';
+import MainLogo from './logo';
+import NavRight from './navright';
+
+import "./navbar.css";
+
 
 function Navbar() {
     return (
-      <div>
-        <h1>navbar</h1>
-      </div>
+      <header className="nav--StyledHeader">
+        <nav className="nav--StyledNav">
+          <div className="logo">
+            <MainLogo />
+          </div>
+          <NavRight />
+        </nav>
+      </header>
     )
 }
 
