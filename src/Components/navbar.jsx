@@ -1,5 +1,5 @@
 import React from 'react';
-import MainLogo from './logo';
+import MainLogo from './main_logo';
 import NavRight from './navright';
 
 import "./navbar.css";
