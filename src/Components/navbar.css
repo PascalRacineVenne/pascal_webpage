@@ -57,14 +57,14 @@
 .nav--StyledLinks > ol >li > a::before {
   content: "0" counter(item) ".";
   margin-right: 5px;
-  color: var(--primary_marron);
+  color: var(--primary_maroon);
   text-align: right;
 }
 
 .resume-btn {
-    color: var(--primary_marron);
+    color: var(--primary_maroon);
     background-color: transparent;
-    border: 1px solid var(--primary_marron);
+    border: 2px solid var(--primary_maroon);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-family: var(--special-font);

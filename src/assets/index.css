@@ -16,7 +16,7 @@
   --primary_mid_green: #2E3A2B;
   --primary_light_green: #DFEFD9;
   --secondary_green: #507844;
-  --primary_marron: #AE4F2F;
+  --primary_maroon: #AE4F2F;
   --white: #FFFFFF;
 
   --border-radius: 4px;
@@ -26,8 +26,12 @@
 /*// Your CSS partials*/
 @import "./App.css";
 
-
-
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
 
 body {
   margin: 0px;
@@ -37,8 +41,17 @@ body {
   /*-webkit-font-smoothing: antialiased;*/
   background-color: var(--primary_green);
   line-height: 1.3;
-  padding-top: 100px;
+  padding-top: 0px;
+  /*padding-top: 100px;*/
 }
+
+section {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 100px 0;
+}
+
+
 /*html {
   height: -webkit-fill-available;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Components/navbar.jsx';
+import Hero from './Components/hero.jsx';
 import AboutMe from './Components/about_me.jsx';
 import TechSkills from './Components/tech_skills.jsx';
 import Projects from './Components/projects.jsx';
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       <Navbar />
       <div id="content">
-        <div className="main">
+        <div className="main fillHeight">
+          <Hero />
           <AboutMe />
           <TechSkills />
           <Projects />

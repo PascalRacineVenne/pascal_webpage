@@ -11,7 +11,6 @@
 --special-font: "Ubuntu Mono", "monospace";
 }
 
-
 body {
   font-family: var(--body-font);
   color: var(--primary_light_green);
@@ -20,43 +19,44 @@ body {
 h1 {
   font-size: 76px !important;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 h2 {
-  font-size: 62px !important;
+  font-size: 62px;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 h3 {
-  font-size: 48px !important;
+  font-size: 48px;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 h4 {
-  font-size: 32px !important;
+  font-size: 32px;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 h5 {
-  font-size: 28px !important;
+  font-size: 28px;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 }
 
 p {
-  font-size: 20px !important;
+  font-size: 16px;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
 
 }
 
 li {
-  font-size: 16px !important;
+  font-size: 16px;
   font-family: var(--special-font) !important;
   padding: 0;
-  margin: 0 !important;
+  margin: 0;
+  letter-spacing: 6%;
 }

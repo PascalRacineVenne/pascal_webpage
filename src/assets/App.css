@@ -2,8 +2,22 @@
 @import "./stylesheets/config/_colors.css";*/
 
 .App {
-  height: 100vh;
-  /*text-align: center;*/
-  background-color: var(--primary_green);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+.main {
+  margin: 0 auto;
+  width: 100%;
+  /*max-width: 1600px;*/
+  height: 100vh;
+  padding: 0 150px;
+  border: 2px solid red;
+}
+
+#content {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
