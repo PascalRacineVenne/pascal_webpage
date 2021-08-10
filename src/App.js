@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div id="content">
-        <div className="main fillHeight">
+        <div className="main">
           <Hero />
           <AboutMe />
           <TechSkills />

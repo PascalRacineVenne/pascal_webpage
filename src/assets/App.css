@@ -8,16 +8,23 @@
 }
 
 .main {
-  margin: 0 auto;
+  margin: 0;
   width: 100%;
-  /*max-width: 1600px;*/
+  max-width: 1600px;
   height: 100vh;
   padding: 0 150px;
-  border: 2px solid red;
+  counter-reset: section 0;
 }
 
 #content {
   display:flex;
   flex-direction: column;
   min-height: 100vh;
+/*  margin: 0 16px;*/
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1000px;
+  /*padding: 100px 0;*/
 }
