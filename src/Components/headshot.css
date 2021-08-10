@@ -1,0 +1,10 @@
+.headshot_Styled {
+  background-color: var(--primary_light_green);
+  mix-blend-mode: screen;
+}
+
+.wrapper {
+  border: 2px solid var(--primary_light_green);
+  border-radius: 4px;
+  z-index: -1;
+}

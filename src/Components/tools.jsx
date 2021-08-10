@@ -3,12 +3,12 @@ import './tools.css';
 
 
 
-function Tools() {
+function Tools({ skill }) {
   return (
     <div className ="tools__styledTools">
       <div className="tools__circle">
       </div>
-      <p>React</p>
+      <p>{skill.name}</p>
     </div>
   )
 }

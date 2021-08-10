@@ -1,0 +1,72 @@
+const skills = [
+  {
+    id: 1,
+    name: "HTML",
+
+  },
+  {
+    id: 2,
+    name: "CSS"
+
+  },
+  {
+    id: 3,
+    name: "JavaScript"
+
+  },
+  {
+    id: 4,
+    name: "React"
+
+  },
+  {
+    id: 5,
+    name: "Ruby"
+
+  },
+  {
+    id: 6,
+    name: "Rails"
+
+  },
+  {
+    id: 7,
+    name: "Redux"
+
+  },
+  {
+    id: 8,
+    name: "Figma"
+
+  },
+  {
+    id: 9,
+    name: "Bootstrap"
+
+  },
+  {
+    id: 10,
+    name: "Cloudinary"
+
+  },
+  {
+    id: 11,
+    name: "SASS"
+
+  },
+  {
+    id: 12,
+    name: "Github"
+
+  },
+  {
+    id: 13,
+    name: "PostgreSQL"
+
+  },
+  {
+    id: 14,
+    name: "Heroku"
+
+  },
+]
