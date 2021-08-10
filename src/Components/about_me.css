@@ -33,7 +33,7 @@
   background-color: var(--primary_maroon);
 }
 
-.inner {
+.inner_about_me {
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 50px;

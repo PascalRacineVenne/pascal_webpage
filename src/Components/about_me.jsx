@@ -6,18 +6,22 @@ function AboutMe() {
   return (
     <section className="about__StyledAbout">
       <h5 className="numbered-heading">About me</h5>
-      <div className="inner">
+      <div className="inner_about_me">
         <div className="about__StyledText">
-          <p>All the magis stuff about me on multiple lines. All the magis stuff about
-me on multiple lines. All the magis stuff about me on multiple lines. All
-the magis stuff about me on multiple lines.All the magis stuff about me
-on multiple lines. All the magis stuff about me on multiple lines. All the
-magis stuff about me on multiple lines. </p>
-          <p>All the magis stuff about me on multiple lines. All the magis stuff about
-me on multiple lines. All the magis stuff about me on multiple lines. All
-the magis stuff about me on multiple lines.All the magis stuff about me
-on multiple lines. All the magis stuff about me on multiple lines. All the
-magis stuff about me on multiple lines. </p>
+          <p>
+            All the magis stuff about me on multiple lines. All the magis stuff about
+            me on multiple lines. All the magis stuff about me on multiple lines. All
+            the magis stuff about me on multiple lines.All the magis stuff about me
+            on multiple lines. All the magis stuff about me on multiple lines. All the
+            magis stuff about me on multiple lines.
+          </p>
+          <p>
+            All the magis stuff about me on multiple lines. All the magis stuff about
+            me on multiple lines. All the magis stuff about me on multiple lines. All
+            the magis stuff about me on multiple lines.All the magis stuff about me
+            on multiple lines. All the magis stuff about me on multiple lines. All the
+            magis stuff about me on multiple lines.
+          </p>
         </div>
         <div>
           <Headshot />

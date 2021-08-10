@@ -1,0 +1,43 @@
+.contact__StyledContact {
+  text-align: center;
+  margin: 0px auto 100px;
+  max-width: 600px;
+}
+
+.numbered-heading.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.numbered-heading.contact::after {
+  content:"";
+  width: 0px;
+  text-align: center;
+}
+
+.numbered-heading.contact {
+  margin: 10px 0 20px;
+}
+
+.contact__StyledContact a {
+  font-family: var(--special-font);
+  color: var(--primary_maroon);
+  font-size: 16px;
+}
+
+.email-link {
+  background-color: transparent;
+  border: 2px solid var(--primary_maroon);
+  border-radius: var(--border-radius);
+  padding: 20px 28px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.contact__StyledContact p {
+  margin: 10px 0px 50px 0px;
+  letter-spacing: 0.5px;
+}
