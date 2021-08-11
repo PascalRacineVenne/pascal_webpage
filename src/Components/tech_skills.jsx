@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Tools from './tools'
 import "./tech_skills.css";
 
-// import skills from '../data/skill_data.json';
-
 
 const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
@@ -11,7 +9,7 @@ const TechSkills = () => {
   console.log(techSkills);
 
 useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill_data.json?token=ASMX374L2FVMBHRFGOZQZMTBCPB6W")
+  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill_data.json?token=ASMX3724OCT6R3L44MOBVMDBCQV42")
     .then(response => response.json())
     .then(data => setTechSkills(data))
 }, [])
@@ -21,6 +19,7 @@ useEffect(() => {
       <h5 className="numbered-heading">Technological Skills</h5>
       <div className="inner_tech_skills">
         {techSkills.map((skill) => {
+          console.log(skill)
           return (
             <Tools skill={skill} key={skill.id}/>
           )
@@ -31,76 +30,3 @@ useEffect(() => {
 }
 
 export default TechSkills;
-
-// const skills = [
-//   {
-//     id: 1,
-//     name: "HTML",
-
-//   },
-//   {
-//     id: 2,
-//     name: "CSS"
-
-//   },
-//   {
-//     id: 3,
-//     name: "JavaScript"
-
-//   },
-//   {
-//     id: 4,
-//     name: "React"
-
-//   },
-//   {
-//     id: 5,
-//     name: "HTML",
-
-//   },
-//   {
-//     id: 6,
-//     name: "CSS"
-
-//   },
-//   {
-//     id: 7,
-//     name: "JavaScript"
-
-//   },
-//   {
-//     id: 8,
-//     name: "React"
-
-//   },
-//   {
-//     id: 9,
-//     name: "React"
-
-//   },
-//   {
-//     id: 10,
-//     name: "React"
-
-//   },
-//   {
-//     id: 11,
-//     name: "React"
-
-//   },
-//   {
-//     id: 12,
-//     name: "React"
-
-//   },
-//   {
-//     id: 13,
-//     name: "React"
-
-//   },
-//   {
-//     id: 14,
-//     name: "React"
-
-//   }
-// ]

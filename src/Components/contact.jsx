@@ -9,7 +9,7 @@ function Contact() {
         <h2>Get in touch</h2>
         <p>great informationsgreat informationsgreat informationsgreat informationsgreat informationsgreat informationsgreat informationsgreat informationsgreat informationsgreat informations</p>
         <div>
-          <a href="" className="email-link">Get in touch</a>
+          <a href="https//www.google.com" className="email-link">Get in touch</a>
         </div>
       </div>
     </section>
