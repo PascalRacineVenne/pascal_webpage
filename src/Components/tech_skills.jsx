@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Tools from './tools'
 import "./tech_skills.css";
-// import Json from '../data/skill.json';
 
 
 const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
 
 useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX376AMODLFEJNCFA6DZDBCQ74U")
+  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX3747FBZILVBWMDJW5P3BCRBDI")
     .then(response => response.json())
     .then(data => setTechSkills(data))
 }, [])
