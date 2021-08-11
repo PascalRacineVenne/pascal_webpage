@@ -8,7 +8,7 @@ const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
 
 useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX377KK4QTKJZ4KXBTQGTBCQ7QW")
+  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX376AMODLFEJNCFA6DZDBCQ74U")
     .then(response => response.json())
     .then(data => setTechSkills(data))
 }, [])
@@ -18,7 +18,6 @@ useEffect(() => {
       <h5 className="numbered-heading">Technological Skills</h5>
       <div className="inner_tech_skills">
         {techSkills.map((skill) => {
-          console.log(skill);
           return (
             <Tools skill={skill} key={skill.id}/>
           )

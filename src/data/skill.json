@@ -2,84 +2,84 @@
    {
     "id": 1,
     "name": "HTML",
-    "imgURL": "images/web_logo/01-html.svg"
+    "imgURL": "./images/web_logo/01-html.svg"
 
   },
   {
     "id": 2,
     "name": "CSS",
-    "imgURL": "images/web_logo/02-css.svg"
+    "imgURL": "./images/web_logo/02-css.svg"
   },
    {
     "id": 3,
     "name": "JavaScript",
-    "imgURL": "images/web_logo/03-javascript6464.svg"
+    "imgURL": "./images/web_logo/03-javascript6464.svg"
 
   },
  {
     "id": 4,
     "name": "React",
-    "imgURL": "images/web_logo/04-react_5650.svg"
+    "imgURL": "./images/web_logo/04-react_5650.svg"
 
   },
   {
     "id": 5,
     "name": "Ruby",
-    "imgURL": "images/web_logo/05-ruby_5050.svg"
+    "imgURL": "./images/web_logo/05-ruby_5050.svg"
 
   },
   {
     "id": 6,
     "name": "Rails",
-    "imgURL": "images/web_logo/06-rails_7676.svg"
+    "imgURL": "./images/web_logo/06-rails_7676.svg"
 
   },
   {
     "id": 7,
     "name": "Redux",
-    "imgURL": "images/web_logo/07-redux_5050.svg"
+    "imgURL": "./images/web_logo/07-redux_5050.svg"
 
   },
   {
     "id": 8,
     "name": "Figma",
-    "imgURL": "images/web_logo/08-figma_5050.svg"
+    "imgURL": "./images/web_logo/08-figma_5050.svg"
 
   },
   {
     "id": 9,
     "name": "Bootstrap",
-    "imgURL": "images/web_logo/09-botstrap5050.svg"
+    "imgURL": "./images/web_logo/09-botstrap5050.svg"
 
   },
   {
     "id": 10,
     "name": "Cloudinary",
-    "imgURL": "images/web_logo/10-cloudinary_6643.svg"
+    "imgURL": "./images/web_logo/10-cloudinary_6643.svg"
 
   },
   {
     "id": 11,
     "name": "SASS",
-    "imgURL": "images/web_logo/11-sass_7474.svg"
+    "imgURL": "./images/web_logo/11-sass_7474.svg"
 
   },
   {
     "id": 12,
     "name": "Github",
-    "imgURL": "images/web_logo/12-github_5050.svg"
+    "imgURL": "./images/web_logo/12-github_5050.svg"
 
   },
   {
     "id": 13,
     "name": "PostgreSQL",
-    "imgURL": "images/web_logo/13-postgresql_5050.svg"
+    "imgURL": "./images/web_logo/13-postgresql_5050.svg"
 
   },
   {
     "id": 14,
     "name": "Heroku",
-    "imgURL": "images/web_logo/14-heroku_5050.svg"
+    "imgURL": "./images/web_logo/14-heroku_5050.svg"
 
   }
 ]
