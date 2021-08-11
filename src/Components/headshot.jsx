@@ -6,7 +6,7 @@ function Headshot() {
   return(
     <div className="about__StyledPic">
       <div className="wrapper">
-        <img src={headshot} classname="headshot_Styled"alt="headshot" />
+        <img src={headshot} className="headshot_Styled"alt="headshot" />
       </div>
     </div>
   )
