@@ -7,7 +7,7 @@ const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
 
 useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX377JCKU2EEMCODHOGXLBCRDS2")
+  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json")
     .then(response => response.json())
     .then(data => setTechSkills(data))
 }, [])

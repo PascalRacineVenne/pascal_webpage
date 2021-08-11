@@ -2,18 +2,18 @@
   {
     "id": 1,
     "name": "HTML",
-    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/01-html.svg?token=ASMX373PWTZRNCR77AHX4MDBCQWUM"
+    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/01-html.svg"
   },
   {
     "id": 2,
     "name": "CSS",
-    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/e4db3da851b840b7797ff67bda631bd131a55acc/src/images/web_logo/02-css.svg?token=ASMX372LVTPSF5RCC35O72DBCQWW2"
+    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/02-css.svg"
 
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/e4db3da851b840b7797ff67bda631bd131a55acc/src/images/web_logo/03-javascript_6464.svg?token=ASMX37ZXGBRDEX66SOW4E2DBCQWZO"
+    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/03-javascript_6464.svg"
 
   }
 ]
