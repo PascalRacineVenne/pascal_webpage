@@ -4,6 +4,7 @@ import './tools.css';
 
 
 function Tools({ skill }) {
+  console.log(skill.imgURL);
   return (
     <div className ="tools__styledTools">
       <div className="tools__circle">
