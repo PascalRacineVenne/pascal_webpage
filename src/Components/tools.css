@@ -7,6 +7,9 @@
 }
 
 .tools__circle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-color: var(--primary_mid_green);
   border-radius: 50%;
   width: 100px;
@@ -18,3 +21,4 @@
   padding: 12px 0px;
 
 }
+
