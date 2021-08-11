@@ -1,8 +1,8 @@
 [
   {
-    id: 1,
-    name: "HTML",
-    imgURL: "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/01-html.svg?token=ASMX3767FXUV5UN3765ATYDBCPSOG#"
+    "id": 1,
+    "name": "HTML",
+    "imgURL": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/web_logo/01-html.svg?token=ASMX3767FXUV5UN3765ATYDBCPSOG#"
   }
 ]
   // ,
