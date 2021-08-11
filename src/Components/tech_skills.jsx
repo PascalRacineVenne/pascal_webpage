@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Tools from './tools'
 import "./tech_skills.css";
+// import Json from '../data/skill.json';
 
 
 const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
 
-  console.log(techSkills);
-
 useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill_data.json?token=ASMX377DG3ZUXJF66AT3RV3BCQXC4")
+  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill.json?token=ASMX377KK4QTKJZ4KXBTQGTBCQ7QW")
     .then(response => response.json())
     .then(data => setTechSkills(data))
 }, [])
@@ -19,6 +18,7 @@ useEffect(() => {
       <h5 className="numbered-heading">Technological Skills</h5>
       <div className="inner_tech_skills">
         {techSkills.map((skill) => {
+          console.log(skill);
           return (
             <Tools skill={skill} key={skill.id}/>
           )
