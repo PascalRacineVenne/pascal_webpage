@@ -3,8 +3,8 @@
   mix-blend-mode: screen;
 }
 
-.wrapper img {
-  box-shadow: 24px 24px 15px var(--primary_mid_green);
+.wrapper {
+  /*box-shadow: 24px 24px 15px var(--primary_mid_green);*/
   border-radius: 4px;
   z-index: -1;
 }
