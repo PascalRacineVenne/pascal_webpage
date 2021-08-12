@@ -4,7 +4,7 @@ import Contact from './Components/contact.jsx';
 import Footer from './Components/footer.jsx';
 import Hero from './Components/hero.jsx';
 import Navbar from './Components/navbar.jsx';
-import Projects from './Components/projects.jsx';
+import ProjectsList from './Components/projects_list.jsx';
 import TechSkills from './Components/tech_skills.jsx';
 
 
@@ -19,7 +19,7 @@ function App() {
           <Hero />
           <AboutMe />
           <TechSkills />
-          <Projects />
+          <ProjectsList />
           <Contact />
         </div>
       </div>

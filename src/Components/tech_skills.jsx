@@ -6,11 +6,11 @@ import "./tech_skills.css";
 const TechSkills = () => {
   const [techSkills, setTechSkills] = useState([])
 
-useEffect(() => {
-  fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill_data.json")
-    .then(response => response.json())
-    .then(data => setTechSkills(data))
-}, [])
+  useEffect(() => {
+    fetch("https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/data/skill_data.json")
+      .then(response => response.json())
+      .then(data => setTechSkills(data))
+  }, [])
 
   return (
     <section className="skills__StyledSkills">
@@ -18,7 +18,7 @@ useEffect(() => {
       <div className="inner_tech_skills">
         {techSkills.map((skill) => {
           return (
-            <Tools skill={skill} key={skill.id}/>
+            <Tools skill={skill} key={skill.id} />
           )
         })}
       </div>

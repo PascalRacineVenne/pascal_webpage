@@ -14,11 +14,12 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  box-shadow: inset 18px 0px 45px 20px var(--primary_light_green)
+  box-shadow: inset 4px 4px 14px -12px var(--primary_light_green)
 }
 
 .tools__styledTools p {
   padding: 12px 0px;
-
+  color: black;
+  font-family: var(--special-font);
 }
 

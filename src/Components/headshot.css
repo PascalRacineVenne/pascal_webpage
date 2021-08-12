@@ -1,10 +1,11 @@
 .headshot_Styled {
-  background-color: var(--primary_light_green);
-  mix-blend-mode: screen;
+
 }
 
 .wrapper {
-  /*box-shadow: 24px 24px 15px var(--primary_mid_green);*/
+
+}
+
+.wrapper img {
   border-radius: 4px;
-  z-index: -1;
 }
