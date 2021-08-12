@@ -16,7 +16,7 @@ function Project({ project }) {
           <p>Projets récents</p>
           <div>
             <h5 className="project__StyledTitle">
-              <a href="" style={styledLink}>{project.name}</a>
+              <a href={project.appURL} style={styledLink} target="_blank">{project.name}</a>
             </h5>
           </div>
           <div className="project__StyledDescription">
@@ -29,13 +29,13 @@ function Project({ project }) {
             <li>JavaScript</li>
           </ul>
           <div>
-            <a href={project.githubURL} style={styledLink}>lien git</a>
-            <a href={project.appURL} style={styledLink}>lien app</a>
+            <a href={project.githubURL} style={styledLink} target="_blank">lien git</a>
+            <a href={project.appURL} style={styledLink} target="_blank">lien app</a>
           </div>
         </div>
       </div>
       <div className="project__StyledImg">
-        <a href="" style={styledLink}>
+        <a href={project.appURL} style={styledLink} target="_blank">
           <img src={project.appURL} alt="un img/lien de l'app" />
         </a>
       </div>
