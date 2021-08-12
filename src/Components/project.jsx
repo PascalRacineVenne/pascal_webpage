@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./project.css";
 
-function Project() {
+function Project({ project }) {
   const styledLink = {
     textDecoration: "none",
     color: "var(--primary_light_green)",
@@ -16,7 +16,7 @@ function Project() {
           <p>Projets récents</p>
           <div>
             <h5 className="project__StyledTitle">
-              <a href="" style={styledLink}>Le nom du Projet</a>
+              <a href="" style={styledLink}>{project.name}</a>
             </h5>
           </div>
           <div className="project__StyledDescription">
@@ -29,14 +29,14 @@ function Project() {
             <li>JavaScript</li>
           </ul>
           <div>
-            <a href="" style={styledLink}></a>
-            <a href="" style={styledLink}>lien app</a>
+            <a href={project.githubURL} style={styledLink}>lien git</a>
+            <a href={project.appURL} style={styledLink}>lien app</a>
           </div>
         </div>
       </div>
       <div className="project__StyledImg">
         <a href="" style={styledLink}>
-          <img src="" alt="un img/lien de l'app" />
+          <img src={project.appURL} alt="un img/lien de l'app" />
         </a>
       </div>
     </li>

@@ -1,17 +1,20 @@
 [
   {
     "id": 1,
-    "name": "number 1",
-    "url": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/pascal_300x300.jpg"
+    "name": "Wheelhouse",
+    "appURL": "https://wheel-house.herokuapp.com/",
+    "githubURL": "https://github.com/tsamyin/wheelhouse_app"
   },
   {
     "id": 2,
-    "name": "number 2",
-    "url": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/pascal_300x300.jpg"
+    "name": "Tourbook",
+    "appURL": "https://www.tour-book.xyz/",
+    "githubURL": "https://github.com/hollyhilts/tourbook"
   },
   {
     "id": 3,
     "name": "number 3",
-    "url": "https://raw.githubusercontent.com/PascalRacineVenne/pascal_webpage/master/src/images/pascal_300x300.jpg"
+    "appURL": "https://www.tour-book.xyz/",
+    "githubURL": "https://github.com/hollyhilts/tourbook"
   }
 ]
