@@ -12,7 +12,7 @@ const ProjectsList= () => {
   }, [])
 
   return (
-    <section className="projects__StyledProjects">
+    <section id="projects" className="projects__StyledProjects">
       <h5 className="numbered-heading">Past and current Projects</h5>
       <ul className="inner_projects">
         {projects.map(project => {

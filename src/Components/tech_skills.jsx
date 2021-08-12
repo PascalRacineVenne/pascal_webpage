@@ -13,7 +13,7 @@ const TechSkills = () => {
   }, [])
 
   return (
-    <section className="skills__StyledSkills">
+    <section id="skills" className="skills__StyledSkills">
       <h5 className="numbered-heading">Technological Skills</h5>
       <div className="inner_tech_skills">
         {techSkills.map((skill) => {

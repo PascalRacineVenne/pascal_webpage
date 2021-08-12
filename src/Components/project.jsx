@@ -1,4 +1,5 @@
 import React from 'react';
+// import ProjectTools from './project_tools'
 
 import "./project.css";
 
@@ -23,14 +24,15 @@ function Project({ project }) {
             <p>Une magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été fait</p>
           </div>
           <ul>
-            <li>HTML</li>
-            <li>React</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            {project.tools.map(tool => {
+              return (
+              <li>{tool}</li>
+              )
+            })}
           </ul>
           <div>
-            <a href={project.githubURL} style={styledLink} target="_blank">lien git</a>
-            <a href={project.appURL} style={styledLink} target="_blank">lien app</a>
+            <a href={project.githubURL} style={styledLink} target="_blank" className="project__link">lien git</a>
+            <a href={project.appURL} style={styledLink} target="_blank" className="project__link">lien app</a>
           </div>
         </div>
       </div>

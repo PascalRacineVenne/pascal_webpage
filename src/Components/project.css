@@ -53,11 +53,11 @@
   padding: 0px 20px 5px 0px;
 }
 
+.project__link {
+  padding: 10px;
+}
+
 .project__StyledImg {
 
 }
 
-/*not working*/
-/*.project__StyledPContent > h5 > a {
-  text-decoration: none;
-}*/
