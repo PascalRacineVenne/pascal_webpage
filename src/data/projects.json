@@ -3,18 +3,21 @@
     "id": 1,
     "name": "Wheelhouse",
     "appURL": "https://wheel-house.herokuapp.com/",
-    "githubURL": "https://github.com/tsamyin/wheelhouse_app"
+    "githubURL": "https://github.com/tsamyin/wheelhouse_app",
+    "tools" : [ "ruby on rails", "mapbox", "flatpkr" ]
   },
   {
     "id": 2,
     "name": "Tourbook",
     "appURL": "https://www.tour-book.xyz/",
-    "githubURL": "https://github.com/hollyhilts/tourbook"
+    "githubURL": "https://github.com/hollyhilts/tourbook",
+    "tools" : [ "ruby on rails", "Javascript", "Active Record" ]
   },
   {
     "id": 3,
     "name": "number 3",
     "appURL": "https://www.tour-book.xyz/",
-    "githubURL": "https://github.com/hollyhilts/tourbook"
+    "githubURL": "https://github.com/hollyhilts/tourbook",
+    "tools" : [ "React.js" ]
   }
 ]
