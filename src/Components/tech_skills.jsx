@@ -2,7 +2,7 @@ import React from 'react';
 import Tools from './tools'
 import "./tech_skills.css";
 
-import dataSkill from '../data/skill_data.json';
+import dataSkill from '../data/skill.json';
 
 
 const TechSkills = () => {
