@@ -1,5 +1,6 @@
 import React from 'react';
 // import ProjectTools from './project_tools'
+import GithubLogo from '../images/web_logo/12-github_5050.svg';
 
 import "./project.css";
 
@@ -10,6 +11,8 @@ function Project({ project }) {
     fontFamily: "var(--body-font)"
   }
 
+  console.log(project);
+
   return (
     <li className="project__StyledProject">
       <div className="project__StyledContent">
@@ -17,7 +20,7 @@ function Project({ project }) {
           <p>Projets récents</p>
           <div>
             <h5 className="project__StyledTitle">
-              <a href={project.appURL} style={styledLink} target="_blank">{project.name}</a>
+              <a href={project.appURL} style={styledLink} target="_blank" rel="noreferrer" >{project.name}</a>
             </h5>
           </div>
           <div className="project__StyledDescription">
@@ -31,14 +34,18 @@ function Project({ project }) {
             })}
           </ul>
           <div>
-            <a href={project.githubURL} style={styledLink} target="_blank" className="project__link">lien git</a>
-            <a href={project.appURL} style={styledLink} target="_blank" className="project__link">lien app</a>
+            <a href={project.githubURL} style={styledLink} target="_blank" rel="noreferrer"  className="project__link">
+              <img src={GithubLogo} alt="github logo" />
+            </a>
+            <a href={project.appURL} style={styledLink} target="_blank" rel="noreferrer" className="project__link">
+              lien app
+            </a>
           </div>
         </div>
       </div>
       <div className="project__StyledImg">
-        <a href={project.appURL} style={styledLink} target="_blank">
-          <img src={project.appURL} alt="un img/lien de l'app" />
+        <a href={project.appURL} style={styledLink} target="_blank" rel="noreferrer">
+          <img src={project.imgURL} alt="un img/lien de l'app" />
         </a>
       </div>
     </li>
