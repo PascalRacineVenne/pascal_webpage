@@ -11,8 +11,6 @@ function Project({ project }) {
     fontFamily: "var(--body-font)"
   }
 
-  console.log(project);
-
   return (
     <li className="project__StyledProject">
       <div className="project__StyledContent">
@@ -27,9 +25,11 @@ function Project({ project }) {
             <p>Une magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été fait</p>
           </div>
           <ul>
-            {project.tools.map(tool => {
+            {project.tools.map((tool, index )=> {
               return (
-              <li>{tool}</li>
+              <li key={index}>
+                {tool}
+              </li>
               )
             })}
           </ul>
