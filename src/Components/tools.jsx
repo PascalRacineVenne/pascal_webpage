@@ -4,8 +4,7 @@ import './tools.css';
 // import TestLogo from "../images/web_logo/07-redux_5050.svg"
 // import TestLogo from "../images/web_logo/01-html.svg"
 
-function Tools({ skill }) {
-            console.log(skill.imgURL);
+const Tools = ({ skill }) => {
   return (
     <div className ="tools__styledTools">
       <div className="tools__circle">

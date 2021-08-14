@@ -5,7 +5,7 @@
     "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
     "tools" : [ "ruby on rails", "mapbox", "flatpkr" ],
-    "imgURL" : ""
+    "imgURL" : "../images/projects_display/wheelhouse.png"
   },
   {
     "id": 2,

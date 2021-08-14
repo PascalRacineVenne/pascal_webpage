@@ -1,11 +1,10 @@
 import React from 'react';
-// import ProjectTools from './project_tools'
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
 import "./project.css";
 
-function Project({ project }) {
+const Project = ({ project }) => {
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
