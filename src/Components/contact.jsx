@@ -1,7 +1,7 @@
 import React from 'react';
 import "./contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <section id="contact" className="contact__StyledContact">
       <h5 className="numbered-heading contact">Contact</h5>

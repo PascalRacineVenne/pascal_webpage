@@ -1,7 +1,7 @@
 import React from 'react';
 import './hero.css';
 
-function Hero() {
+const Hero = () => {
   return (
     <section className="hero__StyledHeroSection section1">
       <div>
@@ -17,7 +17,7 @@ function Hero() {
         <p>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Upstatement.</p>
       </div>
       <div>
-        <a href="https://www.google.com" className="email-link">Get in touch</a>
+        <a href="https://www.google.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>
       </div>
     </section>
   )

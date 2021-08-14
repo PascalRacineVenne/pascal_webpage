@@ -2,7 +2,7 @@ import React from 'react';
 import "./headshot.css";
 import headshot from '../images/pascal_300x300.jpg';
 
-function Headshot() {
+const Headshot = () => {
   return(
     <div className="about__StyledPic">
       <div className="wrapper">

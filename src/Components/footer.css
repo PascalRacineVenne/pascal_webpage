@@ -1,0 +1,34 @@
+.footer_StyledFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  min-height: 70px;
+  padding: 15px 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer__centered {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_StyledLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_StyledCopyright{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px;
+}
+
+.footer_StyledFooter a {
+  text-decoration: none;
+  color: var(--primary_light_green);
+  font-family: var(--body-font);
+}

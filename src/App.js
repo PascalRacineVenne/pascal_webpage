@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div id="content">
+      <div className="content">
         <div className="main">
           <Hero />
           <AboutMe />
@@ -22,8 +22,8 @@ function App() {
           <ProjectsList />
           <Contact />
         </div>
+        <Footer className="footer"/>
       </div>
-      <Footer />
     </div>
   );
 }

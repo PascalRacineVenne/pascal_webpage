@@ -18,10 +18,14 @@
   --primary_light_green: #DFEFD9;
   --secondary_green: #507844;
   --primary_maroon: #AE4F2F;
+  --secondary_maroon: rgba(174, 79, 47, 0.15);
   --white: #FFFFFF;
 
+  --primary_filter: invert(70%) sepia(98%) saturate(421%) hue-rotate(329deg) brightness(92%) contrast(92%);
+
   --border-radius: 4px;
-  --transition: all 0.25s;
+  /*--transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);*/
+  --transition: all 0.1s ease-in-out;
 }
 
 /*// Your CSS partials*/

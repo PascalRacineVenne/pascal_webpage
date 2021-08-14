@@ -2,9 +2,9 @@ import React from 'react';
 import Headshot from "./headshot";
 import './about_me.css';
 
-function AboutMe() {
+const AboutMe= () => {
   return (
-    <section id="about" className="about__StyledAbout">
+    <section id="about" className="about__StyledAbout section">
       <h5 className="numbered-heading">About me</h5>
       <div className="inner_about_me">
         <div className="about__StyledText">

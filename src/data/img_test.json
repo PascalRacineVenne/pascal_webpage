@@ -2,18 +2,18 @@
   {
     "id": 1,
     "name": "HTML",
-    "imgURL": "./images/pascal_300x300.jpg"
+    "imgURL": "../images/pascal_300x300.jpg"
   },
   {
     "id": 2,
     "name": "CSS",
-    "imgURL": "./images/pascal_300x300.jpg"
+    "imgURL": "../images/pascal_300x300.jpg"
 
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "imgURL": "./images/pascal_300x300.jpg"
+    "imgURL": "../images/pascal_300x300.jpg"
 
   }
 ]

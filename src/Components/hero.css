@@ -21,7 +21,7 @@
 }
 
 .hero__StyledHeroSection p {
-  margin: 10px 0px 50px 0px;
+  margin: 10px 0px 60px 0px;
   max-width: 540px;
   letter-spacing: 0.5px;
 }
@@ -44,3 +44,6 @@
   margin-top: 50px;
 }
 
+.email-link:hover {
+  background-color: var(--secondary_maroon);
+}

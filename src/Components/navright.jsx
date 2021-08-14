@@ -18,7 +18,7 @@ function NavRight() {
           <a href="/#contact">Contact</a>
         </li>
       </ol>
-      <div>
+      <div className="btn">
         <a className="resume-btn" href="../images/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </div>

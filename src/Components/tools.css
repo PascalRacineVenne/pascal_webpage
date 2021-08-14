@@ -19,7 +19,7 @@
 
 .tools__styledTools p {
   padding: 12px 0px;
-  color: black;
+  color: var(--primary_light_green);
   font-family: var(--special-font);
 }
 
