@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Github",
+    "URL": "https://github.com/PascalRacineVenne",
+    "svg" : "../images/link_logo/github_link.svg"
+  },
+  {
+    "id": 2,
+    "name": "Instagram",
+    "URL": "https://www.instagram.com/pascalracinevenne/",
+    "svg" : "../images/link_logo/github_link.svg"
+  },
+  {
+    "id": 3,
+    "name": "Linkedin",
+    "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
+    "svg" : "../images/link_logo/github_link.svg"
+  },
+
+]
