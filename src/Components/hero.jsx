@@ -17,7 +17,7 @@ const Hero = () => {
         <p>I'm a front-end developer specializing in building great digital experiences.  Currently, I'm focused on gathering my knowledge into accessible and people-oriented projects.</p>
       </div>
       <div>
-        <a href="https://www.google.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>
+        <a href="mailto:pascalracinevenne@gmail.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>
       </div>
     </section>
   )

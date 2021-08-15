@@ -32,7 +32,7 @@
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/hollyhilts/tourbook",
     "tools" : [ "React.js", "Figma" ],
-    "imgURL" : "",
+    "imgURL" : "../images/projects_display/MyWebSite.png",
     "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."
   }
 ]
