@@ -5,6 +5,7 @@ import "./tech_skills.css";
 import dataSkill from '../data/skill.json';
 
 
+
 const TechSkills = () => {
   return (
     <section id="skills" className="skills__StyledSkills">

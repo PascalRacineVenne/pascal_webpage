@@ -8,10 +8,10 @@ const Hero = () => {
         <h2>Hello! My name is</h2>
       </div>
       <div>
-        <h1>Pascal Racine-Venne</h1>
+        <h1 className="hero_BigHeading">Pascal Racine-Venne</h1>
       </div>
       <div>
-        <h3>Building for the web is my playground.</h3>
+        <h3 className="hero_BigHeading">Building for the web is my playground.</h3>
       </div>
       <div>
         <p>I'm a front-end developer specializing in building great digital experiences.  Currently, I'm focused on gathering my knowledge into accessible and people-oriented projects.</p>

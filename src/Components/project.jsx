@@ -2,6 +2,8 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
+import ProjectURL from '../images/projects_display/wheelhouse_bw.png'
+
 import "./project.css";
 
 const Project = ({ project }) => {
@@ -16,7 +18,7 @@ const Project = ({ project }) => {
             </h5>
           </div>
           <div className="project__StyledDescription">
-            <p>Une magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été faitUne magnifique description de tout ce qui a été fait</p>
+            <p>{project.description}</p>
           </div>
           <ul>
             {project.tools.map((tool, index )=> {
@@ -39,7 +41,7 @@ const Project = ({ project }) => {
       </div>
       <div className="project__StyledImg">
         <a href={project.appURL} target="_blank" rel="noreferrer">
-          <img src={project.imgURL} alt="App" />
+          <img src={ProjectURL} alt="App" />
         </a>
       </div>
     </li>

@@ -22,6 +22,7 @@
   --white: #FFFFFF;
 
   --primary_filter: invert(70%) sepia(98%) saturate(421%) hue-rotate(329deg) brightness(92%) contrast(92%);
+  --secondary_filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg) brightness(91%) contrast(128%);
 
   --border-radius: 4px;
   /*--transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);*/

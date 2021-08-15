@@ -7,9 +7,14 @@
   padding: 0px;
 }
 
+.hero_BigHeading {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 76px);
+}
+
 .hero__StyledHeroSection h1 {
   color: var(--white);
-  margin: 0;
+  margin: 0px;
 }
 
 .hero__StyledHeroSection h2 {
@@ -20,9 +25,13 @@
   margin: 0px 0px 30px 4px;
 }
 
+/*.hero__StyledHeroSection h3 {
+  font-size: 54px;
+}*/
+
 .hero__StyledHeroSection p {
   margin: 10px 0px 60px 0px;
-  max-width: 540px;
+  max-width: 500px;
   letter-spacing: 0.5px;
 }
 
