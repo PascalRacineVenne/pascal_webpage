@@ -68,6 +68,10 @@
   padding: 0px 20px 5px 0px;
 }
 
+.project_ListLink{
+  margin-left: -10px;
+}
+
 .project__link {
   padding: 10px;
 }

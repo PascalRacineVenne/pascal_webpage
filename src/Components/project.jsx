@@ -27,7 +27,7 @@ const Project = ({ project }) => {
               )
             })}
           </ul>
-          <div>
+          <div className="project_ListLink">
             <a href={project.githubURL} target="_blank" rel="noreferrer"  className="project__link">
               <img src={GithubLogo} alt="github logo" />
             </a>
