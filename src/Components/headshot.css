@@ -12,8 +12,10 @@
 }
 
 .wrapper {
-  box-shadow: 0 10px 30px -15px var(--primary_mid_green);
+  box-shadow: 11px 10px 20px -15px var(--primary_mid_green);
   transition: var(--transition);
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .wrapper img {
