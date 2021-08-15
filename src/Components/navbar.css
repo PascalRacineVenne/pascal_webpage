@@ -46,6 +46,7 @@
   margin: 0 5px;
   position: relative;
   counter-increment: item 1;
+  border-radius: 16px;
 }
 
 .nav--StyledLinks > ol >li > a {
@@ -62,10 +63,15 @@
   text-align: right;
 }
 
-.nav--StyledLinks > ol >li > a:hover {
+.nav--StyledLinks > ol > li > a:hover {
   color:var(--primary_maroon);
   transition: var(--transition);
   transform: scale(1.05, 1.05);
+}
+
+.nav--StyledLinks > ol > li > a:focus {
+  color:var(--primary_maroon);
+  box-shadow: 0 0 3px var(--primary_maroon);
 }
 
 .resume-btn {
