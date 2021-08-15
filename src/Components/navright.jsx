@@ -19,7 +19,7 @@ function NavRight() {
         </li>
       </ol>
       <div className="btn">
-        <a className="resume-btn" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a className="resume-btn" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </div>
   );
