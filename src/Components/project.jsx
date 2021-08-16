@@ -3,6 +3,7 @@ import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
 import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
+// import ProjectURL from '../images/img_projects/tb_1.png';
 
 import "./project.css";
 
