@@ -16,11 +16,5 @@
     "name": "Linkedin",
     "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
     "fontAwesomeIcons" : ["fab", "linkedin"]
-  },
-  {
-    "id": 4,
-    "name": "Linkedin",
-    "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
-    "fontAwesomeIcons" : "externalLinkAlt"
   }
 ]

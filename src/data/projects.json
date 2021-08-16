@@ -5,7 +5,7 @@
     "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
     "tools" : [ "Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap" ],
-    "imgURL" : "../images/projects_display/wheelhouse.png",
+    "imgURL" : "../images/img-projects/wheelhouse.png",
     "description": "A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
   },
   {
@@ -14,16 +14,16 @@
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/hollyhilts/tourbook",
     "tools" : [ "Ruby on Rails", "Figma", "Javascript", "Active Record" ],
-    "imgURL" : "",
+    "imgURL" : "../images/img-projects/wheelhouse.png",
     "description": "Tourbook is a management app for touring bands.  A coordination tools to ensure good logistics and efficient travel. For schedule management and to better appreciate locations and their assets.  Create tours, events and your dream team."
   },
   {
     "id": 3,
-    "name": "NASA apicrazy stuff",
+    "name": "NASA api crazy stuff",
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/hollyhilts/tourbook",
     "tools" : [ "React.js" ],
-    "imgURL" : "",
+    "imgURL" : "../images/img-projects/wheelhouse.png",
     "description": "A great app being create to gather information about specific constellations, stars, and nebulas.  Create and manage your lists"
   },
   {
@@ -32,7 +32,7 @@
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/hollyhilts/tourbook",
     "tools" : [ "React.js", "Figma" ],
-    "imgURL" : "../images/projects_display/MyWebSite.png",
+    "imgURL" : "../images/img-projects/MyWebSite.png",
     "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."
   }
 ]

@@ -22,17 +22,17 @@
   {
     "id": 5,
     "name": "Ruby",
-    "fontAwesomeIcons" : ["fab", "ruby"]
+    "fontAwesomeIcons" : ["fab", "dribbble"]
   },
   {
     "id": 6,
     "name": "Rails",
-    "fontAwesomeIcons" : ["fab", "rails"]
+    "fontAwesomeIcons" : ["fab", "dribbble"]
   },
   {
     "id": 7,
     "name": "Redux",
-    "fontAwesomeIcons" : ["fab", "redux"]
+    "fontAwesomeIcons" : ["fab", "dribbble"]
   },
   {
     "id": 8,
@@ -63,13 +63,11 @@
   {
     "id": 13,
     "name": "PostgreSQL",
-    "fontAwesomeIcons" : ["fab", ""]
-
+    "fontAwesomeIcons" : ["fab", "dribbble"]
   },
   {
     "id": 14,
     "name": "Heroku",
-    "fontAwesomeIcons" : ["fab", ""]
-
+    "fontAwesomeIcons" : ["fab", "dribbble"]
   }
 ]

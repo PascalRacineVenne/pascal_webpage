@@ -2,11 +2,12 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
-import ProjectURL from '../images/projects_display/wheelhouse_bw.png'
+// import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
 
 import "./project.css";
 
 const Project = ({ project }) => {
+  console.log(project.imgURL);
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
@@ -41,7 +42,7 @@ const Project = ({ project }) => {
       </div>
       <div className="project__StyledImg">
         <a href={project.appURL} target="_blank" rel="noreferrer">
-          <img src={ProjectURL} alt="App" />
+          <img src={project.imgURL} alt="App" />
         </a>
       </div>
     </li>

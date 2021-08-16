@@ -9,12 +9,12 @@
 .tools__circle {
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: var(--primary_mid_green);
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 96px;
+  height: 96px;
   box-shadow: inset 4px 4px 14px -12px var(--primary_light_green)
 }
 
