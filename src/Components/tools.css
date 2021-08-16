@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
   background-color: var(--primary_mid_green);
   border-radius: 50%;
   width: 100px;

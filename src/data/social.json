@@ -3,19 +3,24 @@
     "id": 1,
     "name": "Github",
     "URL": "https://github.com/PascalRacineVenne",
-    "fontAwesomeIcons" : ""
+    "fontAwesomeIcons" : ["fab", "github"]
   },
   {
     "id": 2,
     "name": "Instagram",
     "URL": "https://www.instagram.com/pascalracinevenne/",
-    "fontAwesomeIcons" : "lock"
+    "fontAwesomeIcons" : ["fab", "instagram"]
   },
   {
     "id": 3,
     "name": "Linkedin",
     "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
-    "fontAwesomeIcons" : "envelope"
+    "fontAwesomeIcons" : ["fab", "linkedin"]
+  },
+  {
+    "id": 4,
+    "name": "Linkedin",
+    "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
+    "fontAwesomeIcons" : "externalLinkAlt"
   }
-
 ]
