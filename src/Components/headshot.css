@@ -12,12 +12,12 @@
 }
 
 .wrapper {
-  box-shadow: 11px 10px 20px -15px var(--primary_mid_green);
   transition: var(--transition);
-  max-width: 300px;
-  max-height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .wrapper img {
+  box-shadow: 9px 9px 20px -20px black;
   border-radius: 4px;
 }
