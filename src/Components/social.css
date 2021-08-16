@@ -1,3 +1,15 @@
+.social__StyledIcon {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: var(--transition);
+  padding: 10px;
+}
+
 .social__StyledIcon:hover {
   color: var(--primary_maroon);
+  transition: var(--transition);
+  transform: scale(1.1, 1.1);
 }

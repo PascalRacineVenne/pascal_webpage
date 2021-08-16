@@ -7,6 +7,8 @@ import Footer from './Components/footer.jsx';
 import Hero from './Components/hero.jsx';
 import Navbar from './Components/navbar.jsx';
 import ProjectsList from './Components/projects_list.jsx';
+import SideLeft from './Components/side_left.jsx';
+import SideRight from './Components/side_right.jsx';
 import TechSkills from './Components/tech_skills.jsx';
 
 import './assets/App.css';
@@ -15,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <SideLeft />
+      <SideRight />
       <div className="content">
         <div className="main">
           <Hero />

@@ -60,3 +60,11 @@ li {
   margin: 0;
   letter-spacing: 6%;
 }
+
+small {
+  font-size: 12px;
+  font-family: var(--special-font);
+  padding: 0;
+  margin: 0;
+  letter-spacing: 6%;
+}

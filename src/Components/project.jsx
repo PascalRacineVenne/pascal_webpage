@@ -2,7 +2,7 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
-// import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
+import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
 
 import "./project.css";
 
@@ -12,7 +12,7 @@ const Project = ({ project }) => {
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
         <div className="project__StyledOverline">
-          <p>Projets récents</p>
+          <p>Featured project</p>
           <div>
             <h5 className="project__StyledTitle">
               <a href={project.appURL} target="_blank" rel="noreferrer" >{project.name}</a>
@@ -42,7 +42,7 @@ const Project = ({ project }) => {
       </div>
       <div className="project__StyledImg">
         <a href={project.appURL} target="_blank" rel="noreferrer">
-          <img src={project.imgURL} alt="App" />
+          <img src={ProjectURL} alt="App" />
         </a>
       </div>
     </li>
