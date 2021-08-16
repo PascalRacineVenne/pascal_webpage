@@ -22,12 +22,13 @@
   {
     "id": 5,
     "name": "Ruby",
+    "fontAwesomeIcons" : ["fab", "ruby"],
     "devIcon" : "ruby"
   },
   {
     "id": 6,
     "name": "Rails",
-    "devIcon" : "n/a"
+    "devIcon" : "rails-plain"
   },
   {
     "id": 7,

@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './project';
+import Iframe from './iframe';
 import "./projects_list.css";
 
 import dataProjects from '../data/projects.json';
@@ -23,6 +24,7 @@ const ProjectsList= () => {
         })
         }
       </ul>
+      <Iframe />
     </section>
   )
 }

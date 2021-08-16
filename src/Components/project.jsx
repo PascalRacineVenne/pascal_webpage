@@ -7,7 +7,6 @@ import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
 import "./project.css";
 
 const Project = ({ project }) => {
-  console.log(project.imgURL);
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
