@@ -2,17 +2,20 @@
   {
     "id": 1,
     "name": "Github",
-    "URL": "https://github.com/PascalRacineVenne"
+    "URL": "https://github.com/PascalRacineVenne",
+    "fontAwesomeIcons" : ""
   },
   {
     "id": 2,
     "name": "Instagram",
-    "URL": "https://www.instagram.com/pascalracinevenne/"
+    "URL": "https://www.instagram.com/pascalracinevenne/",
+    "fontAwesomeIcons" : "lock"
   },
   {
     "id": 3,
     "name": "Linkedin",
-    "URL": "https://www.linkedin.com/in/pascal-racine-venne/"
+    "URL": "https://www.linkedin.com/in/pascal-racine-venne/",
+    "fontAwesomeIcons" : "envelope"
   }
 
 ]
