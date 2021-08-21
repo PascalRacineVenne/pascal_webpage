@@ -1,5 +1,6 @@
 import React from 'react';
 import "./navbar.css";
+import Pdf from '../images/resume-PascalRacineVenne.pdf'
 
 function NavRight() {
   return(
@@ -19,7 +20,7 @@ function NavRight() {
         </li>
       </ol>
       <div className="btn">
-        <a className="resume-btn" href="../images/resume_PascalRacineVenne.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href={Pdf} without rel="noopener noreferrer" target="_blank"  className="resume-btn" >Resume</a>
       </div>
     </div>
   );
