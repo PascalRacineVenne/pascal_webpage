@@ -3,6 +3,7 @@ import Tools from './tools'
 import "./tech_skills.css";
 
 import dataSkill from '../data/skill.json';
+// import dataSkill from '../data/skill_data_2.json';
 
 const TechSkills = () => {
   return (

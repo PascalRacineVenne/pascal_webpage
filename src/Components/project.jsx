@@ -2,12 +2,13 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
+// import {Images} from '../images/img_projects/';
+
 import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
-// import ProjectURL from '../images/img_projects/tb_1.png';
 
 import "./project.css";
 
-const Project = ({ project }) => {
+const Project = ({ project, Images}) => {
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
