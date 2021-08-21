@@ -100,3 +100,9 @@
   filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg) brightness(91%) contrast(128%);
   overflow: hidden;
 }
+
+.project__StyledImg > a > img:hover {
+  filter: none;
+  transition: var(--transition2);
+  transform: scale(1.02,1.02);
+}
