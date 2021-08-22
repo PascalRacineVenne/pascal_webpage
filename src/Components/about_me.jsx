@@ -11,16 +11,14 @@ const AboutMe= () => {
           <p>
             I've been a musician for 20 years and I've always been very
             enthusiastic about the possible relations between music and
-            technology. For me code seems to be another way to shape and
-            create dynamic material based on the interaction and harmony
+            technology. For me code seems to be another way to <strong>shape and
+            create dynamic material</strong> based on the interaction and harmony
             between languages. Pretty much like music!
           </p>
           <p>
-            All the magis stuff about me on multiple lines. All the magis stuff about
-            me on multiple lines. All the magis stuff about me on multiple lines. All
-            the magis stuff about me on multiple lines.All the magis stuff about me
-            on multiple lines. All the magis stuff about me on multiple lines. All the
-            magis stuff about me on multiple lines.
+            My main focus these days is <strong>building accessible and inclusive
+            digital products</strong> while gaining experience in mastering
+            these new concepts and bringing it to the next level.
           </p>
         </div>
         <div>
