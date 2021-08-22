@@ -16,8 +16,9 @@ const AboutMe= () => {
             between languages. Pretty much like music!
           </p>
           <p>
-            My main focus these days is <strong>building accessible and inclusive
-            digital products</strong> while gaining experience in mastering
+            As a recent graduate of Le Wagon fullstack coding bootcamp, my main
+            focus these days is <strong>building  or reproducing accessible and
+            inclusive digital products</strong> while gaining experience in mastering
             these new concepts and bringing it to the next level.
           </p>
         </div>

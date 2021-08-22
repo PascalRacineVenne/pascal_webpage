@@ -4,7 +4,7 @@ import AppLink from '../images/link_logo/external_link.svg';
 
 // import {Images} from '../images/img_projects/';
 
-import ProjectURL from '../images/img_projects/wheelhouse_bw.png';
+import ProjectURL from '../images/img_projects/tourbook_sample.png';
 
 import "./project.css";
 
