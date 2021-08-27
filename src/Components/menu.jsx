@@ -1,11 +1,11 @@
 import React from 'react';
-import "./navbar.css";
+import "./menu.css";
 import Pdf from '../images/resume-PascalRacineVenne.pdf'
 import Burger from './burger';
 
-function NavRight() {
+function Menu() {
   return(
-    <div className="nav--StyledLinks">
+    <div className="menu--StyledLinks">
       <ol>
         <li>
           <a href="/#about">About</a>
@@ -28,4 +28,4 @@ function NavRight() {
   );
 }
 
-export default NavRight;
+export default Menu;
