@@ -11,7 +11,7 @@
   },
    {
     "id": 3,
-    "name": "JavaScript",
+    "name": "Javascript",
     "fontAwesomeIcons" : ["fab", "js"]
   },
   {
@@ -47,7 +47,7 @@
   },
   {
     "id": 10,
-    "name": "SASS",
+    "name": "Sass",
     "fontAwesomeIcons" : ["fab", "sass"]
   },
   {

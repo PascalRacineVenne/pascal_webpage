@@ -12,5 +12,4 @@ export { default as IconSass } from './sass';
 export { default as IconGithub } from './github';
 export { default as IconPostgresql } from './postgresql';
 export { default as IconHeroku } from './heroku';
-
 export { default as Icon } from './icon';

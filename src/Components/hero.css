@@ -9,25 +9,26 @@
 
 .hero_BigHeading {
   margin: 0px;
-  font-size: clamp(40px, 8vw, 76px);
 }
 
 .hero__StyledHeroSection h1 {
   color: var(--white);
   margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
 }
 
 .hero__StyledHeroSection h2 {
   font-family: var(--special-font);
   color: var(--primary_maroon);
-  font-size: 22px;
+  font-size: clamp(14px, 2vw, 22px);
   letter-spacing: 0.5px;
   margin: 0px 0px 30px 4px;
 }
 
-/*.hero__StyledHeroSection h3 {
-  font-size: 54px;
-}*/
+.hero__StyledHeroSection h3 {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 55px);
+}
 
 .hero__StyledHeroSection p {
   margin: 10px 0px 60px 0px;

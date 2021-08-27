@@ -1,6 +1,7 @@
 import React from 'react';
 import "./navbar.css";
 import Pdf from '../images/resume-PascalRacineVenne.pdf'
+import Burger from './burger';
 
 function NavRight() {
   return(
@@ -22,6 +23,7 @@ function NavRight() {
       <div className="btn">
         <a href={Pdf} rel="noopener noreferrer" target="_blank"  className="resume-btn" >Resume</a>
       </div>
+      <Burger />
     </div>
   );
 }

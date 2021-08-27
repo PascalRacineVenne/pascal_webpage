@@ -15,7 +15,7 @@ import {
   IconGithub,
   IconPostgresql,
   IconHeroku
-} from '@components/icons';
+} from './Components/icons';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -43,7 +43,7 @@ const Icon = ({ name }) => {
         return <IconSass />;
     case 'Github':
       return <IconGithub />;
-    case 'Postgresql':
+    case 'PostgreSQL':
         return <IconPostgresql />;
     default:
       return <IconHeroku />;

@@ -1,6 +1,10 @@
 .headshot_Styled {
     filter: var(--secondary_filter);
     /*transition: var(--transition);*/
+    @media (max-width: 768px) {
+      margin: 50px auto 0;
+      width: 70%;
+    }
 }
 
 .headshot_Styled:hover {

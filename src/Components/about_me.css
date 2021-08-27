@@ -36,8 +36,10 @@
 .inner_about_me {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  gap: 50px;
-
+  grid-gap: 50px;
+  @media (max-width: 768px) {
+        display: block;
+  }
 }
 
 .about__StyledText p {
