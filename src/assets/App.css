@@ -11,9 +11,15 @@
   margin: 0;
   /*width: 100%;*/
   max-width: 1600px;
-  /*height: 100vh;*/
+/*  height: 100vh;*/
   padding: 0 150px;
   counter-reset: section 0;
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  main {
+    padding: ;
+  }
 }
 
 .content {
