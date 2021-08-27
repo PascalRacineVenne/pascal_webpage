@@ -8,14 +8,6 @@ const Footer = () => {
   return (
     <div className="footer_StyledFooter">
       <div className="footer__centered">
-{/*        <div className="footer_StyledLinks">
-          {dataSocial.map((social) => {
-            return(
-             <Social social={social} key={social.id}/>
-            )
-          })
-          }
-        </div>*/}
         <div className="footer_StyledCopyright">
          <a href="https://github.com/PascalRacineVenne" alt="github_link" target="_blank" rel="noopener noreferrer">
           <p>Pascal Racine-Venne @ 2021</p>

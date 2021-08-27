@@ -9,7 +9,8 @@ import './tools.css';
 const Tools = ({ skill }) => {
   const styledDevIcon = {
     fill: 'var(--primary_light_green',
-    width: '50px'
+    width: 'clamp(32px, 3vw, 50px)'
+    // width: '50px'
   }
 
   return (

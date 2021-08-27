@@ -13,8 +13,10 @@
   flex-wrap: wrap;
   background-color: var(--primary_mid_green);
   border-radius: 50%;
-  width: 96px;
-  height: 96px;
+/*  width: 96px;
+  height: 96px;*/
+  width: clamp(64px, 5vw, 96px);
+  height: clamp(64px, 5vw, 96px);
   box-shadow: inset 4px 4px 14px -12px var(--primary_light_green)
 }
 
