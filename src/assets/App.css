@@ -16,11 +16,11 @@
   counter-reset: section 0;
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+/*@media (min-width: 500px) and (max-width: 1000px) {
   main {
     padding: ;
   }
-}
+}*/
 
 .content {
   display:flex;
