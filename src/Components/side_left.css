@@ -7,6 +7,19 @@
   z-index: 10;
 }
 
+/*@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .sideright__Styled{
+    right: auto;
+    left: 20px;
+  }
+}*/
+
+@media screen and (max-width: 768px) {
+  .sideleft__Styled{
+    display: none;
+  }
+}
+
 .innerleft {
   display: flex;
   flex-direction: column;
