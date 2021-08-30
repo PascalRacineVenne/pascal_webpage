@@ -3,6 +3,15 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .menu--StyledLinks > ol > li{
+    display: none;
+  }
+  .resume-btn {
+    display: none;
+  }
+}
+
 .menu--StyledLinks > ol {
   display: flex;
   /*-webkit-box-pack: justify;*/
@@ -14,7 +23,7 @@
   list-style: none;
 }
 
-.menu--StyledLinks > ol >li {
+.menu--StyledLinks > ol > li {
   margin: 0 5px;
   position: relative;
   counter-increment: item 1;

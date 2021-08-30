@@ -7,12 +7,12 @@
   z-index: 10;
 }
 
-/*@media screen and (min-width: 769px) and (max-width: 1080px) {
-  .sideright__Styled{
-    right: auto;
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .sideleft__Styled{
     left: 20px;
+    right: auto;
   }
-}*/
+}
 
 @media screen and (max-width: 768px) {
   .sideleft__Styled{
