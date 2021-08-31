@@ -18,3 +18,9 @@
   box-shadow: 9px 9px 20px -20px black;
   border-radius: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper img {
+    width: 80%;
+  }
+}
