@@ -20,6 +20,18 @@
   padding: 0px 50px;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .nav--StyledNav {
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 768px) {
+  .nav--StyledNav {
+    padding: 0px 25px;
+  }
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
