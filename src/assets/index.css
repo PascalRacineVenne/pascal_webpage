@@ -45,7 +45,7 @@ body {
   padding: 0;
   width: 100%;
   min-height: 100vh;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   background-color: var(--primary_green);
   line-height: 1.3;
