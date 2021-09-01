@@ -29,7 +29,7 @@
 }
 
 .innerright::after {
-  content:"";
+  content: "";
   display: block;
   width: 1px;
   height: 90px;
