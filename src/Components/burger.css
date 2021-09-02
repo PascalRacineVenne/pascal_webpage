@@ -1,42 +1,3 @@
-/*.burger__StyledBurger {
-  position: absolute;
-  top: 33%;
-  right: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
-}
-
-@media screen and (min-width: 769px) {
-  .burger__StyledBurger {
-    display: none;
-  }
-}
-
-.burger__StyledBurger:focus {
-  outline: none;
-}
-
-.burger__StyledBurger div {
-  width: 2rem;
-  height: 0.25rem;
-  background: var(--primary_maroon);
-  border-radius: 10px;
-  transition: all 0.3s linear;
-  position: relative;
-  transform-origin: 1px;
-}
-*/
-
-/*+++++++++++  NEW VERSION ++++++++++++*/
-
 .burger__StyledBurger {
   display: flex;
   justify-content: center;
@@ -45,7 +6,6 @@
   z-index: 10;
   margin-right: -15px;
   padding: 15px;
-  border: 1px solid red;
   background-color: transparent;
   color: inherit;
   text-transform: none;
