@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MainLogo from './main_logo';
-import Menu from './menu';
+import NavLinks from './navlinks';
 import Burger from './burger';
 
 import "./navbar.css";
@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="logo">
             <MainLogo />
           </div>
-          <Menu />
+          <NavLinks />
           <Burger />
         </nav>
       </header>

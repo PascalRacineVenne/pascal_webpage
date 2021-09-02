@@ -1,10 +1,10 @@
-.menu--StyledLinks {
+.navlinks--StyledLinks {
   display: flex;
   align-items: center;
 }
 
 @media screen and (max-width: 768px) {
-  .menu--StyledLinks > ol > li{
+  .navlinks--StyledLinks > ol > li{
     display: none;
   }
   .resume-btn {
@@ -12,7 +12,7 @@
   }
 }
 
-.menu--StyledLinks > ol {
+.navlinks--StyledLinks > ol {
   display: flex;
   /*-webkit-box-pack: justify;*/
   justify-content: space-between;
@@ -23,34 +23,34 @@
   list-style: none;
 }
 
-.menu--StyledLinks > ol > li {
+.navlinks--StyledLinks > ol > li {
   margin: 0 5px;
   position: relative;
   counter-increment: item 1;
   border-radius: 16px;
 }
 
-.menu--StyledLinks > ol >li > a {
+.navlinks--StyledLinks > ol >li > a {
   color: var(--primary_light_green);
   display: inline-block;
   text-decoration: none;
   padding: 10px;
 }
 
-.menu--StyledLinks > ol >li > a::before {
+.navlinks--StyledLinks > ol >li > a::before {
   content: "0" counter(item) ".";
   margin-right: 5px;
   color: var(--primary_maroon);
   text-align: right;
 }
 
-.menu--StyledLinks > ol > li > a:hover {
+.navlinks--StyledLinks > ol > li > a:hover {
   color:var(--primary_maroon);
   transition: var(--transition);
   transform: scale(1.05, 1.05);
 }
 
-.menu--StyledLinks > ol > li > a:focus {
+.navlinks--StyledLinks > ol > li > a:focus {
   color:var(--primary_maroon);
   box-shadow: 0 0 3px var(--primary_maroon);
 }
