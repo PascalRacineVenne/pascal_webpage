@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .menu__StyledMenu {
+    display: block;
+  }
+}

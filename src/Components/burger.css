@@ -1,4 +1,4 @@
-.burger__StyledBurger {
+/*.burger__StyledBurger {
   position: absolute;
   top: 33%;
   right: 2rem;
@@ -32,4 +32,69 @@
   transition: all 0.3s linear;
   position: relative;
   transform-origin: 1px;
+}
+*/
+
+/*+++++++++++  NEW VERSION ++++++++++++*/
+
+.burger__StyledBurger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  margin-right: -15px;
+  padding: 15px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: inherit;
+  text-transform: none;
+}
+
+.ham-box {
+  display: inline-block;
+  position: relative;
+  width: var(--ham-width);
+  height: 24px;
+}
+
+.ham-box-inner {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: var(--ham-width);
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--primary_maroon);
+  transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  transform: rotate(0deg);
+}
+
+.ham-box-inner::before, .ham-box-inner::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: auto;
+      right: 0;
+      width: var(--ham-width);
+      height: 2px;
+      border-radius: 4px;
+      background-color: var(--primary_maroon);
+      transition-timing-function: ease;
+      transition-duration: 0.15s;
+      transition-property: transform;
+}
+
+.ham-box-inner::before {
+  width: 120%;
+  top: -10px;
+  opacity: 1;
+  transition: var(--ham-before);
+}
+
+.ham-box-inner::after {
+  width: 80%;
+  bottom: -10px;
+  transform: rotate(0deg);
+  transition: var(--ham-after);
 }
