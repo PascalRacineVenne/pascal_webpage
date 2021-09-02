@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <SideLeft />
       <SideRight />
-      <div className="content">
+      <div id="content">
         <div className="main">
           <Hero />
           <AboutMe />

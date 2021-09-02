@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Burger from './burger';
 import {navLinks} from '../config';
 import Pdf from '../images/resume-PascalRacineVenne.pdf';
 import './menu.css';
 
 const Menu = () => {
+const [menuOpen, setMenuOpen] = useState(false);
+const toggleMenu = () => setMenuOpen[!menuOpen];
+
   const menuStyle = {
     display: 'flex',
     justifyContent: 'center',
@@ -19,20 +22,25 @@ const Menu = () => {
     backgroundColor: 'var(--primary_mid_green)',
     boxShadow: '-10px 0px 30px -15px var(--primary-mid-green)',
     zIndex: '9',
-    visibility: 'visible',
+    // some prop magic need to happen here
+    transform: 'translateX(100vw)',
+    visibility: 'hidden',
     transition: '--transition3'
   }
 
   return(
     <div className="menu__StyledMenu">
-      <Burger />
-      <aside aria-hidden="true" tabindex="1" style={menuStyle}>
+      <Burger
+        onClick={toggleMenu}
+        menuOpen={menuOpen}
+      />
+      <aside menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1} style={menuStyle}>
         <nav className="menuNav__StyledMenu">
           <ol>
             {navLinks &&
            navLinks.map(({ url, name }, i) => (
             <li key={i}>
-              <a href={url}>{name}</a>
+              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
             </li>
           ))}
           </ol>
