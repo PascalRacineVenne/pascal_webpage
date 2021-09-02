@@ -8,7 +8,7 @@ import ProjectURL from '../images/img_projects/tourbook_sample.png';
 
 import "./project.css";
 
-const Project = ({ project, Images}) => {
+const Project = ({ project}) => {
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
@@ -16,7 +16,7 @@ const Project = ({ project, Images}) => {
           <p>Featured project</p>
           <div>
             <h5 className="project__StyledTitle">
-              <a href={project.appURL} target="_blank" rel="noreferrer" >{project.name}</a>
+              <a href={project.appURL} target="_blank" rel="noreferrer">{project.name}</a>
             </h5>
           </div>
           <div className="project__StyledDescription">
