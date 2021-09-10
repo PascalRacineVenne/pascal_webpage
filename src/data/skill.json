@@ -2,12 +2,12 @@
    {
     "id": 1,
     "name": "HTML",
-    "fontAwesomeIcons" : ["fab", "html5"]
+    "devIcon" : "html5"
   },
   {
     "id": 2,
     "name": "CSS",
-    "fontAwesomeIcons" : ["fab", "css3-alt"]
+    "devIcon" : "css3"
   },
    {
     "id": 3,
@@ -17,18 +17,17 @@
   {
     "id": 4,
     "name": "React",
-    "fontAwesomeIcons" : ["fab", "react"]
+    "devIcon" : "react"
   },
   {
     "id": 5,
     "name": "Ruby",
-    "fontAwesomeIcons" : ["fab", "ruby"],
     "devIcon" : "ruby"
   },
   {
     "id": 6,
     "name": "Rails",
-    "devIcon" : "rails-plain"
+    "devIcon" : "ruby_on_rails"
   },
   {
     "id": 7,
@@ -38,17 +37,17 @@
   {
     "id": 8,
     "name": "Bootstrap",
-    "fontAwesomeIcons" : ["fab", "bootstrap"]
+    "devIcon" : "bootstrap"
   },
   {
     "id": 9,
     "name": "Git",
-    "fontAwesomeIcons" : ["fab", "git-alt"]
+    "devIcon" : "git"
   },
   {
     "id": 10,
     "name": "Sass",
-    "fontAwesomeIcons" : ["fab", "sass"]
+    "devIcon" : "sass"
   },
   {
     "id": 11,
