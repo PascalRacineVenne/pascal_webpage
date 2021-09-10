@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import DevIcon from "devicon-react-svg";
-// import { Icon } from './icons';
+// import { Icon } from '../Components/icons';
 // import WebLogo from '../images/web_logo/'
 
 import './tools.css';
@@ -9,7 +9,7 @@ import './tools.css';
 const Tools = ({ skill }) => {
   const styledDevIcon = {
     fill: 'var(--primary_light_green',
-    width: 'clamp(32px, 3vw, 50px)'
+    width: 'clamp(40px, 4vw, 58px)'
     // width: '50px'
   }
 
@@ -18,6 +18,7 @@ const Tools = ({ skill }) => {
       <div className="tools__circle">
         <FontAwesomeIcon icon={skill.fontAwesomeIcons} size="3x" />
         <DevIcon icon={skill.devIcon} style={styledDevIcon} className={skill.className}/>
+        {/*<DevIcon icon="javascript_plain" style={styledDevIcon} className={skill.className}/>*/}
         {/*<Icon name={skill.name} />*/}
 
       </div>
