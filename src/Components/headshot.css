@@ -1,5 +1,5 @@
 .headshot_Styled {
-    filter: var(--secondary_filter);
+    /*filter: var(--secondary_filter);*/
 }
 
 .headshot_Styled:hover {
