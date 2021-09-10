@@ -10,7 +10,6 @@ const Tools = ({ skill }) => {
   const styledDevIcon = {
     fill: 'var(--primary_light_green',
     width: 'clamp(40px, 4vw, 58px)'
-    // width: '50px'
   }
 
   return (
@@ -18,7 +17,6 @@ const Tools = ({ skill }) => {
       <div className="tools__circle">
         <FontAwesomeIcon icon={skill.fontAwesomeIcons} size="3x" />
         <DevIcon icon={skill.devIcon} style={styledDevIcon} className={skill.className}/>
-        {/*<DevIcon icon="javascript_plain" style={styledDevIcon} className={skill.className}/>*/}
         {/*<Icon name={skill.name} />*/}
 
       </div>
