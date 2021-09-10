@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './project';
+import dataProjects from '../data/projects.json';
 // import Iframe from './iframe';
 import "./projects_list.css";
 
-import dataProjects from '../data/projects.json';
 
 const ProjectsList= () => {
   return (

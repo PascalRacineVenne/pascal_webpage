@@ -3,11 +3,11 @@ import "./burger.css";
 
 const Burger = () => {
   return (
-    <div className="burger__StyledBurger">
-      <div />
-      <div />
-      <div />
-    </div>
+    <button className="burger__StyledBurger">
+      <div className="ham-box">
+        <div className= "ham-box-inner"></div>
+      </div>
+    </button>
   )
 }
 

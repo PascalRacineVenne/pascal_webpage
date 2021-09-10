@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MainLogo from './main_logo';
+import NavLinks from './navlinks';
 import Menu from './menu';
-import Burger from './burger';
 
 import "./navbar.css";
 
@@ -25,8 +25,8 @@ const Navbar = () => {
           <div className="logo">
             <MainLogo />
           </div>
+          <NavLinks />
           <Menu />
-          <Burger />
         </nav>
       </header>
     )

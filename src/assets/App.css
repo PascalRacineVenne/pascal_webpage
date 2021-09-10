@@ -54,7 +54,7 @@
   min-height: 100vh;
 }*/
 
-.content.footer {
+#content.footer {
   align-self: flex-end;
 }
 

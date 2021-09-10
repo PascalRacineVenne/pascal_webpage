@@ -1,29 +1,54 @@
-import React from 'react';
-import "./menu.css";
-import Pdf from '../images/resume-PascalRacineVenne.pdf'
+import React, { useState, useEffect, useRef } from 'react';
+import Burger from './burger';
+import {navLinks} from '../config';
+import Pdf from '../images/resume-PascalRacineVenne.pdf';
+import './menu.css';
 
-function Menu() {
+const Menu = () => {
+const [menuOpen, setMenuOpen] = useState(false);
+const toggleMenu = () => setMenuOpen[!menuOpen];
+
+  const menuStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'fixed',
+    bottom: '0px',
+    right: '0px',
+    padding: '50px 10px',
+    width: 'min(70vw, 400px)',
+    height: '100vh',
+    outline: '0px',
+    backgroundColor: 'var(--primary_mid_green)',
+    boxShadow: '-10px 0px 30px -15px var(--primary-mid-green)',
+    zIndex: '9',
+    // some prop magic need to happen here
+    transform: 'translateX(100vw)',
+    visibility: 'hidden',
+    transition: '--transition3'
+  }
+
   return(
-    <div className="menu--StyledLinks">
-      <ol>
-        <li>
-          <a href="/#about">About</a>
-        </li>
-        <li>
-          <a href="/#skills">Skills</a>
-        </li>
-        <li>
-          <a href="/#projects">Projects</a>
-        </li>
-        <li>
-          <a href="/#contact">Contact</a>
-        </li>
-      </ol>
-      <div className="btn">
-        <a href={Pdf} rel="noopener noreferrer" target="_blank"  className="resume-btn" >Resume</a>
-      </div>
+    <div className="menu__StyledMenu">
+      <Burger
+        onClick={toggleMenu}
+        menuOpen={menuOpen}
+      />
+      <aside menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1} style={menuStyle}>
+        <nav className="menuNav__StyledMenu">
+          <ol>
+            {navLinks &&
+           navLinks.map(({ url, name }, i) => (
+            <li key={i}>
+              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
+            </li>
+          ))}
+          </ol>
+          <a href={Pdf} rel="noopener noreferrer" target="_blank"  className="inner-resume-btn" >Resume</a>
+        </nav>
+      </aside>
     </div>
-  );
+  )
 }
 
 export default Menu;
