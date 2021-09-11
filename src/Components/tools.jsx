@@ -1,27 +1,60 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import DevIcon from "devicon-react-svg";
-// import { Icon } from '../Components/icons';
-// import WebLogo from '../images/web_logo/'
+import { IconContext } from "react-icons";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiRuby,
+  SiRails,
+  SiFigma,
+  SiBootstrap,
+  SiSass,
+  SiGit,
+  SiPostgresql,
+  SiHeroku } from "react-icons/si";
 
 import './tools.css';
 
-const Tools = ({ skill }) => {
-  const styledDevIcon = {
-    fill: 'var(--primary_light_green',
-    width: 'clamp(40px, 4vw, 58px)'
+const Icon = ({ name }) => {
+  switch (name) {
+    case 'HTML':
+      return <SiHtml5 />;
+    case 'CSS':
+      return <SiCss3 />;
+    case 'Javascript':
+      return <SiJavascript />;
+    case 'React':
+      return <SiReact />;
+    case 'Ruby':
+      return <SiRuby />;
+    case 'Rails':
+      return <SiRails />;
+    case 'Figma':
+        return <SiFigma />;
+    case 'Bootstrap':
+        return <SiBootstrap />;
+    case 'Git':
+      return <SiGit />;
+    case 'Sass':
+        return <SiSass />;
+    case 'PostgreSQL':
+        return <SiPostgresql />;
+    default:
+      return <SiHeroku />;
   }
+};
 
+const Tools = ({ skill }) => {
   return (
-    <div className ="tools__styledTools">
+    <IconContext.Provider value={{size: 'clamp(2em, 3vw, 3em)'}}>
+      <div className ="tools__styledTools">
       <div className="tools__circle">
-        <FontAwesomeIcon icon={skill.fontAwesomeIcons} size="3x" />
-        <DevIcon icon={skill.devIcon} style={styledDevIcon} className={skill.className}/>
-        {/*<Icon name={skill.name} />*/}
-
+        <Icon name={skill.name} />
       </div>
       <p>{skill.name}</p>
     </div>
+    </IconContext.Provider>
   )
 }
 
