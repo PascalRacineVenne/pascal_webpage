@@ -1,62 +1,50 @@
  [
    {
     "id": 1,
-    "name": "HTML",
-    "devIcon" : "html5"
+    "name": "HTML"
   },
   {
     "id": 2,
-    "name": "CSS",
-    "devIcon" : "css3"
+    "name": "CSS"
   },
    {
     "id": 3,
-    "name": "Javascript",
-    "fontAwesomeIcons" : ["fab", "js"]
+    "name": "Javascript"
   },
   {
     "id": 4,
-    "name": "React",
-    "devIcon" : "react"
+    "name": "React"
   },
   {
     "id": 5,
-    "name": "Ruby",
-    "devIcon" : "ruby"
+    "name": "Ruby"
   },
   {
     "id": 6,
-    "name": "Rails",
-    "devIcon" : "ruby_on_rails"
+    "name": "Rails"
   },
   {
     "id": 7,
-    "name": "Figma",
-    "fontAwesomeIcons" : ["fab", "figma"]
+    "name": "Figma"
   },
   {
     "id": 8,
-    "name": "Bootstrap",
-    "devIcon" : "bootstrap"
+    "name": "Bootstrap"
   },
   {
     "id": 9,
-    "name": "Git",
-    "devIcon" : "git"
+    "name": "Git"
   },
   {
     "id": 10,
-    "name": "Sass",
-    "devIcon" : "sass"
+    "name": "Sass"
   },
   {
     "id": 11,
-    "name": "PostgreSQL",
-    "devIcon" : "postgresql"
+    "name": "PostgreSQL"
   },
   {
     "id": 12,
-    "name": "Heroku",
-    "devIcon" : "heroku"
+    "name": "Heroku"
   }
 ]
