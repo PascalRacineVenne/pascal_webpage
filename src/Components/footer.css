@@ -1,3 +1,9 @@
+@media screen and (min-width: 768px) {
+  .social__StyledMediaSocial{
+    display: none;
+  }
+}
+
 .footer_StyledFooter {
   display: flex;
   flex-direction: column;
