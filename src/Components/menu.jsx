@@ -6,7 +6,7 @@ import './menu.css';
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   return(
     <div className="menu__StyledMenu">
       <Burger
@@ -19,8 +19,7 @@ const Menu = () => {
             {navLinks &&
            navLinks.map(({ url, name }, i) => (
             <li key={i}>
-              {/*<a href={url} onClick={() => setMenuOpen(false)}>{name}</a>*/}
-              <a href={url} onClick={handleClickOnA}>{name}</a>
+              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
             </li>
           ))}
           </ol>
