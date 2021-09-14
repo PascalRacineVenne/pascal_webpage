@@ -5,8 +5,11 @@ import Pdf from '../images/resume-PascalRacineVenne.pdf';
 import './menu.css';
 
 const Menu = () => {
-const [menuOpen, setMenuOpen] = useState(false);
-const toggleMenu = () => setMenuOpen[!menuOpen];
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen[!menuOpen];
+  const handleClickOnA = (e) => {
+    console.log('menu will be closed');
+  }
 
   const menuStyle = {
     display: 'flex',
@@ -22,12 +25,12 @@ const toggleMenu = () => setMenuOpen[!menuOpen];
     backgroundColor: 'var(--primary_mid_green)',
     boxShadow: '-10px 0px 30px -15px var(--primary-mid-green)',
     zIndex: '9',
-    // some prop magic need to happen here
+    // props magic need to happen here
     // transform: `translateX(${props => (props.menuOpen ? 0 : 100)}vw)`,
-    transform: 'translateX(100vw)',
+    transform: 'translateX(0vw)',
     // visibility: `${props => (props.menuOpen ? 'visible' : 'hidden')}`,
-    visibility: 'hidden',
-    transition: '--transition3'
+    visibility: 'visible',
+    transition: 'var(--transition3)'
   }
 
   return(
@@ -42,7 +45,8 @@ const toggleMenu = () => setMenuOpen[!menuOpen];
             {navLinks &&
            navLinks.map(({ url, name }, i) => (
             <li key={i}>
-              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
+              {/*<a href={url} onClick={() => setMenuOpen(false)}>{name}</a>*/}
+              <a href={url} onClick={handleClickOnA}>{name}</a>
             </li>
           ))}
           </ol>

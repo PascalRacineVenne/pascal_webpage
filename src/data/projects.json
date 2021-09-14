@@ -5,6 +5,7 @@
     "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
     "tools" : [ "Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap" ],
+
     "imgURL" : "/img_projects/wheelhouse_bw.png",
     "description": "A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
   },
