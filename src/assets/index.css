@@ -9,7 +9,6 @@
 
 /*// Graphical variables*/
 @import "./stylesheets/config/_fonts.css";
-@import "./stylesheets/config/_colors.css";
 
 :root {
   --primary_green: #253022;
