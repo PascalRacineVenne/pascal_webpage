@@ -7,6 +7,9 @@ import './menu.css';
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen[!menuOpen];
+  const handleClickOnA = (e) => {
+    console.log('menu will be closed');
+  }
 
   const menuStyle = {
     display: 'flex',
@@ -23,8 +26,10 @@ const Menu = () => {
     boxShadow: '-10px 0px 30px -15px var(--primary-mid-green)',
     zIndex: '9',
     // props magic need to happen here
-    transform: `translateX(${props => (props.menuOpen ? 0 : 100)}vw)`,
-    visibility: `${props => (props.menuOpen ? 'visible' : 'hidden')}`,
+    // transform: `translateX(${props => (props.menuOpen ? 0 : 100)}vw)`,
+    transform: 'translateX(0vw)',
+    // visibility: `${props => (props.menuOpen ? 'visible' : 'hidden')}`,
+    visibility: 'visible',
     transition: 'var(--transition3)'
   }
 
@@ -40,7 +45,8 @@ const Menu = () => {
             {navLinks &&
            navLinks.map(({ url, name }, i) => (
             <li key={i}>
-              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
+              {/*<a href={url} onClick={() => setMenuOpen(false)}>{name}</a>*/}
+              <a href={url} onClick={handleClickOnA}>{name}</a>
             </li>
           ))}
           </ol>
