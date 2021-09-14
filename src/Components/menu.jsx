@@ -5,8 +5,8 @@ import Pdf from '../images/resume-PascalRacineVenne.pdf';
 import './menu.css';
 
 const Menu = () => {
-const [menuOpen, setMenuOpen] = useState(false);
-const toggleMenu = () => setMenuOpen[!menuOpen];
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen[!menuOpen];
 
   const menuStyle = {
     display: 'flex',
@@ -22,12 +22,10 @@ const toggleMenu = () => setMenuOpen[!menuOpen];
     backgroundColor: 'var(--primary_mid_green)',
     boxShadow: '-10px 0px 30px -15px var(--primary-mid-green)',
     zIndex: '9',
-    // some prop magic need to happen here
-    // transform: `translateX(${props => (props.menuOpen ? 0 : 100)}vw)`,
-    transform: 'translateX(100vw)',
-    // visibility: `${props => (props.menuOpen ? 'visible' : 'hidden')}`,
-    visibility: 'hidden',
-    transition: '--transition3'
+    // props magic need to happen here
+    transform: `translateX(${props => (props.menuOpen ? 0 : 100)}vw)`,
+    visibility: `${props => (props.menuOpen ? 'visible' : 'hidden')}`,
+    transition: 'var(--transition3)'
   }
 
   return(
