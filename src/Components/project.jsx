@@ -2,10 +2,6 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
-// import {Images} from '../images/img_projects/';
-
-import ProjectURL from '../images/img_projects/tourbook_sample.png';
-
 import "./project.css";
 
 const Project = ({ project}) => {
@@ -43,7 +39,7 @@ const Project = ({ project}) => {
       </div>
       <div className="project__StyledImg">
         <a href={project.appURL} target="_blank" rel="noreferrer">
-          <img src={ProjectURL} alt="App" />
+          <img src={project.imgURL} alt="App" />
         </a>
       </div>
     </li>

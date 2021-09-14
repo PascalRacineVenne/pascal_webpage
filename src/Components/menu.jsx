@@ -5,8 +5,8 @@ import Pdf from '../images/resume-PascalRacineVenne.pdf';
 import './menu.css';
 
 const Menu = () => {
-const [menuOpen, setMenuOpen] = useState(false);
-
+  const [menuOpen, setMenuOpen] = useState(false);
+  
   return(
     <div className="menu__StyledMenu">
       <Burger
@@ -19,7 +19,8 @@ const [menuOpen, setMenuOpen] = useState(false);
             {navLinks &&
            navLinks.map(({ url, name }, i) => (
             <li key={i}>
-              <a href={url} onClick={() => setMenuOpen(false)}>{name}</a>
+              {/*<a href={url} onClick={() => setMenuOpen(false)}>{name}</a>*/}
+              <a href={url} onClick={handleClickOnA}>{name}</a>
             </li>
           ))}
           </ol>
