@@ -1,13 +1,9 @@
 import React from 'react';
 import "./burger.css";
 
-const Burger = () => {
-  const handleClick = (e) => {
-    console.log(e.target);
-  }
-
+const Burger = ({menuOpen, setMenuOpen}) => {
   return (
-    <button className="burger__StyledBurger" onClick={handleClick}>
+    <button className="burger__StyledBurger" onClick={() => setMenuOpen(!menuOpen)}>
       <div className="ham-box">
         <div className= "ham-box-inner"></div>
       </div>

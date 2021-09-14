@@ -10,6 +10,30 @@
   }
 }
 
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 50px 10px;
+    width: min(70vw, 400px);
+    height: 100vh;
+    outline: 0px;
+    background-color: var(--primary_mid_green);
+    box-shadow: -10px 0px 30px -15px var(--primary_mid_green);
+    z-index: 9;
+    transform: translateX(100vw);
+    visibility: hidden;
+    transition: var(--transition3);
+}
+
+.menuContainer__Visible {
+    transform: translateX(0);
+    visibility: visible;
+}
+
 .menuNav__StyledMenu {
   display: flex;
   flex-direction: column;
