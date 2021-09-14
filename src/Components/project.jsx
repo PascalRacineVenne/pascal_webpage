@@ -2,8 +2,6 @@ import React from 'react';
 import GithubLogo from '../images/link_logo/github_link.svg';
 import AppLink from '../images/link_logo/external_link.svg';
 
-// import {Images} from '../images/img_projects/';
-
 import ProjectURL from '../images/img_projects/tourbook_sample.png';
 
 import "./project.css";
