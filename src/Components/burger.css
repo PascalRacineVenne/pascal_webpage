@@ -30,6 +30,10 @@
   transform: rotate(0deg);
 }
 
+.ham-box-inner_Active {
+  transform: rotate(225deg);
+}
+
 .ham-box-inner::before, .ham-box-inner::after {
       content: '';
       display: block;
@@ -52,9 +56,23 @@
   transition: var(--ham-before);
 }
 
+.ham-box-inner_Active::before {
+  width: 100%;
+  top: 0px;
+  opacity: 0;
+  transition: var(--ham-before-active);
+}
+
 .ham-box-inner::after {
   width: 80%;
   bottom: -10px;
   transform: rotate(0deg);
   transition: var(--ham-after);
+}
+
+.ham-box-inner_Active::after {
+  width: 100%;
+  bottom: 0px;
+  transform: rotate(-90deg);
+  transition: var(--ham-after-active);
 }
