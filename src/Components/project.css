@@ -156,7 +156,7 @@
 
 @media screen and (max-width: 768px) {
   .project__StyledImg > a > img {
-    filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg) brightness(25%) contrast(128%);
+    filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg) brightness(35%) contrast(128%);
     overflow: hidden;
   }
 }
