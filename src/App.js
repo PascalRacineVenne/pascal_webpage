@@ -14,9 +14,10 @@ import TechSkills from './Components/tech_skills.jsx';
 import './assets/App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <SideLeft />
       <SideRight />
       <div id="content">
