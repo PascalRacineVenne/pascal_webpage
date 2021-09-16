@@ -34,6 +34,7 @@ const Navbar = () => {
   }, [])
 
     // VERSION 3
+
   // let prevScrollpos = window.pageYOffset;
   //   window.onscroll = function() {
   //     const currentScrollPos = window.pageYOffset;
