@@ -11,7 +11,7 @@ const Navbar = () => {
 
   // VERSION 1
   const controlNavbar = () => {
-    window.pageYOffset > 80 ? setShow(false) : setShow(true);
+    window.pageYOffset > 50 ? setShow(false) : setShow(true);
   }
 
   // Version 2
