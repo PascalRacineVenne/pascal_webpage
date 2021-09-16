@@ -12,18 +12,18 @@
   visibility: visible;
   opacity: 1;
   transition: var(--transition);
-  z-index: 100000;
+  /*z-index: 100000;*/
   /*box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);*/
 }
 
 /* when class will be added via JS*/
 .nav--StyledHeader_scroll {
   transform: translateY(-10vw);
-  /*visibility: hidden;*/
+  visibility: hidden;
   opacity: 0;
-  /*transition: var(--transition);*/
-  transition: all 10s ease-in-out;;
-  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);
+  transition: var(--transition3);
+  /*transition: all 1s ease-in-out;*/
+  /*box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);*/
 }
 
 .nav--StyledNav {
