@@ -15,16 +15,42 @@ const Navbar = () => {
   }
 
   // Version 2
-  // const controlNavbar = () => {
-  //   const currentScrollY = window.pageYOffset;
-  //   console.log(currentScrollY);
+    // const doc = document.documentElement
+    // const startY = doc.scrollTop;
+    // let windowScrollY = window.pageYOffset;
+    // let prevScroll = windowScrollY || startY;
+    // let currentScrollY;
+    // let direction = 0;
+    // let prevDirection = 0;
+    // console.log(startY, windowScrollY, prevScroll);
 
-  //   if (currentScrollY > 50 || currentScrollY > currentScrollY + 50) {
-  //     setShow(false);
-  //   } else {
-  //     setShow(true);
-  //   }
-  // }
+    // const checkScroll = () => {
+    //   currentScrollY = windowScrollY || startY;
+    //   if (currentScrollY > prevScroll) {
+    //     //scrolled up
+    //     direction = 2;
+    //   }
+    //   else if (currentScrollY < prevScroll) {
+    //     //scrolled down
+    //     direction = 1;
+    //   }
+
+    //   if (direction !== prevDirection) {
+    //     toggleHeader(direction, currentScrollY);
+    //   }
+
+    //   prevScroll = currentScrollY;
+    // }
+
+    // const toggleHeader = (direction, currentScrollY) => {
+    //   if (direction === 2 && currentScrollY > 50) {
+    //     setShow(false);
+    //     prevDirection = direction;
+    //   } else if (direction === 1){
+    //     setShow(true);
+    //     prevDirection = direction;
+    //   }
+    // }
 
   useEffect(()=> {
     window.addEventListener('scroll', controlNavbar)
@@ -33,21 +59,8 @@ const Navbar = () => {
     }
   }, [])
 
-    // VERSION 3
-
-  // let prevScrollpos = window.pageYOffset;
-  //   window.onscroll = function() {
-  //     const currentScrollPos = window.pageYOffset;
-  //     if (prevScrollpos > currentScrollPos) {
-  //       document.querySelector("nav--StyledHeader").style.top = "0";
-  //     } else {
-  //       document.querySelector("nav--StyledHeader").style.top = "-50px";
-  //     }
-  //     prevScrollpos = currentScrollPos;
-  //   }
-
     return (
-      <header className={`${show && 'nav--StyledHeader'}`}>
+      <header className={show ? 'nav--StyledHeader' : 'nav--StyledHeader nav--StyledHeader_scroll'}>
         <nav className="nav--StyledNav">
           <div className="logo">
             <MainLogo />
