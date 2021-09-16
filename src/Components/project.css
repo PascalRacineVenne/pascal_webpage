@@ -45,11 +45,11 @@
   text-decoration: none;
   color: var(--primary_light_green);
   font-family: var(--body-font);
+  transition: var(--transition);
 }
 
 .project__StyledContent a:hover {
   color: var(--primary_maroon);
-  transition: var(--transition);
 }
 /*------------test------------*/
 
@@ -63,6 +63,7 @@
 
 .project__StyledTitle {
   margin: 0px 0px 20px;
+  transition: var(--transition);
 }
 
 .project__StyledTitle > h5 {
@@ -108,11 +109,11 @@
 
 .project__link {
   padding: 10px;
+  transition: var(--transition);
 }
 
 .project__link:hover {
   filter: var(--primary_filter);
-  transition: var(--transition);
 }
 
 .project__StyledImg {
@@ -152,6 +153,7 @@
   overflow: hidden;
   object-fit: cover;
   border-radius: 4px;
+  transition: var(--transition3);
 }
 
 @media screen and (max-width: 768px) {
@@ -164,7 +166,6 @@
 @media screen and (min-width: 768px) {
   .project__StyledImg > a > img:hover {
     filter: none;
-    transition: var(--transition2);
     transform: scale(1.02,1.02);
   }
 }

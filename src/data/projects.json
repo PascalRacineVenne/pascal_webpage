@@ -25,13 +25,13 @@
     "githubURL": "https://github.com/hollyhilts/tourbook",
     "tools" : [ "React.js" ],
     "imgURL" : "/img_projects/wheelhouse_bw.png",
-    "description": "A great app being create to gather information about specific constellations, stars, and nebulas.  Create and manage your lists."
+    "description": "A great app soon to be created! The idea is to gather information about specific constellations, stars, and nebulas.  Create and manage your lists."
   },
   {
     "id": 4,
     "name": "This amazing website",
-    "appURL": "https://www.tour-book.xyz/",
-    "githubURL": "https://github.com/hollyhilts/tourbook",
+    "appURL": "https://pascalracinevenne.herokuapp.com/",
+    "githubURL": "https://github.com/PascalRacineVenne/pascal_webpage",
     "tools" : [ "React.js", "Figma" ],
     "imgURL" : "/img_projects/MyWebSite.png",
     "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."

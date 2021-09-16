@@ -53,7 +53,7 @@
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  transition: var(--transition);
+  transition: var(--transition3);
   margin-top: 50px;
 }
 

@@ -34,6 +34,7 @@
   color: var(--primary_light_green);
   display: inline-block;
   text-decoration: none;
+  transition: var(--transition);
   padding: 10px;
 }
 
@@ -46,7 +47,6 @@
 
 .navlinks--StyledLinks > ol > li > a:hover {
   color:var(--primary_maroon);
-  transition: var(--transition);
   transform: scale(1.05, 1.05);
 }
 
@@ -66,11 +66,11 @@
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    transition: var(--transition);
+    transition: var(--transition3);
     margin-left: 15px;
 }
 
 .resume-btn:hover {
   background-color: var(--secondary_maroon);
-  transform: scale(1.05, 1.05);
+/*  transform: scale(1.1, 1.1);*/
 }
