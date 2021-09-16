@@ -21,8 +21,8 @@
   {
     "id": 3,
     "name": "NASA api crazy stuff",
-    "appURL": "https://www.tour-book.xyz/",
-    "githubURL": "https://github.com/hollyhilts/tourbook",
+    "appURL": "",
+    "githubURL": "",
     "tools" : [ "React.js" ],
     "imgURL" : "/img_projects/space_night_1.png",
     "description": "A great app soon to be created! The idea is to gather information about specific constellations, stars, and nebulas.  Create and manage your lists."
