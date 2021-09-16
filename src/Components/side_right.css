@@ -45,10 +45,10 @@
   writing-mode: vertical-rl;
   text-decoration: none;
   color: var(--primary_light_green);
+  transition: var(--transition);
 }
 
 .sideright__Styled a:hover {
   color: var(--primary_maroon);
-  transition: var(--transition);
   transform: scale(1.1, 1.1);
 }

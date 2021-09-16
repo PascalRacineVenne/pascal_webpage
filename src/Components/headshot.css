@@ -1,11 +1,11 @@
 .headshot_Styled {
     /*filter: var(--secondary_filter);*/
+  transition: var(--transition2);
 }
 
 .headshot_Styled:hover {
   filter: none;
-  transition: var(--transition2);
-  transform: scale(1.02,1.02);
+  /*transform: scale(1.02,1.02);*/
 }
 
 .wrapper {
