@@ -13,29 +13,47 @@
   counter-reset: section 0;
 }
 
+
 .topButton__StyledButton {
+  text-align: center;
+  height: 40px;
+  width: 40px;
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 84px;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: lighter;
   background: var(--primary_mid_green);
-  color: var(--primary_light_green);
+  /*background: var(--primary_mid_green);*/
+  color: var(--primary_maroon);
+  /*color: var(--primary_light_green);*/
   cursor: pointer;
-  border-radius: 16px;
-  border: none;
+
+  border-radius: 50%;
+/*  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);*/
+  z-index: 100000;
+  transition: var(--transition);
+}
+
+.topButton__StyledButton:hover {
+  /*color: var(--primary_maroon);*/
+  /*color: var(--primary_light_green);*/
+  transform: scale(1.2, 1.2);
+  font-size: 28px;
+}
+
+.topButton__StyledButton svg {
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
     0 4px 4px hsl(0deg 0% 0% / 0.075),
     0 8px 8px hsl(0deg 0% 0% / 0.075),
     0 16px 16px hsl(0deg 0% 0% / 0.075);
-  z-index: 100000;
-  transition: var(--transition);
-}
-
-.topButton__StyledButton:hover {
-  color: var(--primary_maroon);
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1599px) {
