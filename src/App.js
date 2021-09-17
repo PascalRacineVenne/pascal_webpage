@@ -11,6 +11,9 @@ import SideLeft from './Components/side_left.jsx';
 import SideRight from './Components/side_right.jsx';
 import TechSkills from './Components/tech_skills.jsx';
 
+import { IconContext } from "react-icons";
+import { FaArrowCircleUp } from "react-icons/fa";
+
 import './assets/App.css';
 
 function App() {
@@ -45,11 +48,14 @@ function App() {
         </div>
         <Footer className="footer"/>
       </div>
-      {showButton && (
-        <button onClick={scrollToTop} className='topButton__StyledButton'>
-          &#8679;
-        </button>)
-      }
+      <div className="icon-top">
+      </div>
+        <IconContext.Provider value={{size: 'clamp(2em, 3vw, 3em)'}}>
+          {showButton && (
+              <FaArrowCircleUp onClick={scrollToTop} className='topButton__StyledButton' />
+            )
+          }
+        </IconContext.Provider>
     </div>
   );
 }
