@@ -1,15 +1,8 @@
 .headshot_Styled {
   filter: sepia(30%);
-  transition: var(--transition2);
-}
-
-.headshot_Styled:hover {
-  filter: none;
-  /*transform: scale(1.02,1.02);*/
 }
 
 .wrapper {
-  transition: var(--transition);
   width: 100%;
   height: auto;
 }

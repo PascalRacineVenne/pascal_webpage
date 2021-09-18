@@ -23,7 +23,7 @@
 .innerleft {
   display: flex;
   flex-direction: column;
-  /*-webkit-box-align: center;*/
+  -webkit-box-align: center;
   align-items: center;
   margin: 0px;
   padding: 0px;
