@@ -23,7 +23,7 @@
 .innerright {
   display: flex;
   flex-direction: column;
-  /*-webkit-box-align: center;*/
+  -webkit-box-align: center;
   align-items: center;
   position: relative;
 }
@@ -41,7 +41,7 @@
   margin: 20px auto;
   padding: 10px;
   letter-spacing: 0.2em;
-/*  -webkit-writing-mode: vertical-rl;*/
+  -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   text-decoration: none;
   color: var(--primary_light_green);

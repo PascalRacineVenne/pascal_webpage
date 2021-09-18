@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo_maroon.svg'; // Tell webpack this JS file uses this image
+import logo from '../images/logo_maroon.svg';
 
 const MainLogo = () => {
   return (

@@ -21,12 +21,6 @@
   flex-direction: column;
 }
 
-/*.footer_StyledLinks {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}*/
-
 .footer_StyledCopyright{
   display: flex;
   align-items: center;
