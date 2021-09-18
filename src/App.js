@@ -30,7 +30,7 @@ function App() {
   }, [])
 
   const scrollToTop = () => {
-    window.scrollTo({
+    window.scroll({
       top: 0,
       left: 0,
       behavior: 'smooth'
