@@ -56,7 +56,25 @@
   z-index: 10;
 }
 
-.about__StyledText a {
+/*.about__StyledText a {
   color: var(--primary_maroon);
   font-weight: bold;
 }
+
+.about__StyledText p a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 6px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.about__StyledText p a:hover:after {
+  width: 100%;
+  left: 0;
+}*/

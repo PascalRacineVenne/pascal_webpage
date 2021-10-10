@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Burger from './burger';
 import {navLinks} from '../config';
-import Pdf from '../images/resume-PascalRacineVenne.pdf';
+import Pdf from '../images/resume-PascalRacineVenne_CV_2021.pdf';
 import './menu.css';
 
 const Menu = () => {

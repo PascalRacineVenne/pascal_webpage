@@ -78,3 +78,29 @@ button {
 a {
   text-decoration: none;
 }
+
+.link_wagon {
+  color: var(--primary_maroon);
+  font-weight: bold;
+  display: inline-block;
+/*  padding: 15px 20px;*/
+  position: relative;
+}
+
+.link_wagon:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: var(--primary_maroon);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.link_wagon:hover:after {
+  width: 100%;
+  left: 0;
+}

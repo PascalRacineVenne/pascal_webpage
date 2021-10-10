@@ -51,4 +51,5 @@
 .sideright__Styled a:hover {
   color: var(--primary_maroon);
   transform: scale(1.1, 1.1);
+  letter-spacing: 4px;
 }

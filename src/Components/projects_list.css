@@ -7,11 +7,6 @@
   margin-bottom: 40px;
 }
 
-.projects__StyledPresentation a {
-  text-decoration: none;
-  color: var(--primary_maroon);
-}
-
 .inner_projects {
   list-style: none;
   margin: 0;
