@@ -55,3 +55,8 @@
   min-width: 350px;
   z-index: 10;
 }
+
+.about__StyledText a {
+  color: var(--primary_maroon);
+  font-weight: bold;
+}
