@@ -32,3 +32,8 @@
   color: var(--primary_light_green);
   font-family: var(--body-font);
 }
+
+.footer_StyledCopyright p {
+  font-family: var(--special-font);
+  font-size: 16px;
+}

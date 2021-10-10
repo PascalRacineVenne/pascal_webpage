@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="footer_StyledCopyright">
          <a href="https://github.com/PascalRacineVenne" alt="github_link" target="_blank" rel="noopener noreferrer">
-          <p>Pascal Racine-Venne @ 2021</p>
+          <p><bold>&copy;</bold> 2021 Pascal Racine-Venne</p>
          </a>
         </div>
       </div>

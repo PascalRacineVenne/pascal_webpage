@@ -16,7 +16,9 @@ const Project = ({ project}) => {
             </h5>
           </div>
           <div className="project__StyledDescription">
-            <p>{project.description}</p>
+            <p>
+              {project.description}
+            </p>
           </div>
           <ul>
             {project.tools.map((tool, index )=> {
