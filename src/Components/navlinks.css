@@ -66,7 +66,7 @@
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  transition: var(--transition3);
+  transition: var(--transition2);
   margin-left: 15px;
 }
 

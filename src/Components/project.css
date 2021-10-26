@@ -64,8 +64,9 @@
   transition: var(--transition);
 }
 
-.project__StyledTitle > h5 {
+.project__StyledTitle > a {
   font-family: var(--body-font);
+  color: white;
 }
 
 .project__StyledDescription {
