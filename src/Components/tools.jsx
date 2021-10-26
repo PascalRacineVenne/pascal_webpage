@@ -6,7 +6,7 @@ import {
   SiJavascript,
   SiReact,
   SiRuby,
-  SiRails,
+  SiRubyonrails,
   SiFigma,
   SiBootstrap,
   SiSass,
@@ -29,7 +29,7 @@ const Icon = ({ name }) => {
     case 'Ruby':
       return <SiRuby />;
     case 'Rails':
-      return <SiRails />;
+      return <SiRubyonrails />;
     case 'Figma':
         return <SiFigma />;
     case 'Bootstrap':
