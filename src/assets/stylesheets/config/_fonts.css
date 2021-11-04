@@ -80,7 +80,7 @@ a {
 }
 
 .link_wagon {
-  font-size: clamp(16px, 2vw, 18px);
+  font-size: inherit;
   color: var(--primary_maroon);
   font-weight: bold;
   display: inline-block;
