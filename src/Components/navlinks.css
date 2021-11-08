@@ -30,7 +30,7 @@
   border-radius: 16px;
 }
 
-.navlinks--StyledLinks > ol >li > a {
+.navlinks--StyledLinks > ol > li > a {
   color: var(--primary_light_green);
   display: inline-block;
   text-decoration: none;
