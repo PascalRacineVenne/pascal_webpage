@@ -54,6 +54,7 @@
   margin-bottom: 20px;
   min-width: 350px;
   z-index: 10;
+  text-align: justify;
 }
 
 /*.about__StyledText a {

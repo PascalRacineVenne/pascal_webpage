@@ -5,6 +5,7 @@
 .projects__StyledPresentation {
   max-width: 600px;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 .inner_projects {
