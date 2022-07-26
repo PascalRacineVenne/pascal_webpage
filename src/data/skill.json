@@ -1,5 +1,5 @@
- [
-   {
+[
+  {
     "id": 1,
     "name": "HTML"
   },
@@ -7,7 +7,7 @@
     "id": 2,
     "name": "CSS"
   },
-   {
+  {
     "id": 3,
     "name": "Javascript"
   },
@@ -17,34 +17,50 @@
   },
   {
     "id": 5,
-    "name": "Ruby"
+    "name": "NodeJS"
   },
   {
     "id": 6,
-    "name": "Rails"
+    "name": "Express"
   },
   {
     "id": 7,
-    "name": "Figma"
+    "name": "MongoDB"
   },
   {
     "id": 8,
-    "name": "Bootstrap"
+    "name": "Ruby"
   },
   {
     "id": 9,
-    "name": "Git"
+    "name": "Rails"
   },
   {
     "id": 10,
-    "name": "Sass"
+    "name": "Figma"
   },
   {
     "id": 11,
-    "name": "PostgreSQL"
+    "name": "Notion"
   },
   {
     "id": 12,
+    "name": "Bootstrap"
+  },
+  {
+    "id": 13,
+    "name": "Git"
+  },
+  {
+    "id": 14,
+    "name": "Sass"
+  },
+  {
+    "id": 15,
+    "name": "PostgreSQL"
+  },
+  {
+    "id": 16,
     "name": "Heroku"
   }
 ]

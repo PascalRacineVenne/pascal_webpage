@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconContext } from "react-icons";
+import { IconContext } from 'react-icons';
 import {
   SiHtml5,
   SiCss3,
@@ -12,7 +12,12 @@ import {
   SiSass,
   SiGit,
   SiPostgresql,
-  SiHeroku } from "react-icons/si";
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiNotion,
+  SiHeroku,
+} from 'react-icons/si';
 
 import './tools.css';
 
@@ -26,20 +31,28 @@ const Icon = ({ name }) => {
       return <SiJavascript />;
     case 'React':
       return <SiReact />;
+    case 'NodeJS':
+      return <SiNodedotjs />;
+    case 'Express':
+      return <SiExpress />;
+    case 'MongoDB':
+      return <SiMongodb />;
     case 'Ruby':
       return <SiRuby />;
     case 'Rails':
       return <SiRubyonrails />;
     case 'Figma':
-        return <SiFigma />;
+      return <SiFigma />;
+    case 'Notion':
+      return <SiNotion />;
     case 'Bootstrap':
-        return <SiBootstrap />;
+      return <SiBootstrap />;
     case 'Git':
       return <SiGit />;
     case 'Sass':
-        return <SiSass />;
+      return <SiSass />;
     case 'PostgreSQL':
-        return <SiPostgresql />;
+      return <SiPostgresql />;
     default:
       return <SiHeroku />;
   }
@@ -47,15 +60,15 @@ const Icon = ({ name }) => {
 
 const Tools = ({ skill }) => {
   return (
-    <IconContext.Provider value={{size: 'clamp(2em, 3vw, 3em)'}}>
-      <div className ="tools__styledTools">
-      <div className="tools__circle">
-        <Icon name={skill.name} />
+    <IconContext.Provider value={{ size: 'clamp(2em, 3vw, 3em)' }}>
+      <div className='tools__styledTools'>
+        <div className='tools__circle'>
+          <Icon name={skill.name} />
+        </div>
+        <p>{skill.name}</p>
       </div>
-      <p>{skill.name}</p>
-    </div>
     </IconContext.Provider>
-  )
-}
+  );
+};
 
 export default Tools;
