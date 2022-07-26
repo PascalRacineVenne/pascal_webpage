@@ -4,9 +4,9 @@
     "name": "Wheelhouse",
     "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
-    "tools" : [ "Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap" ],
+    "tools": ["Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap"],
 
-    "imgURL" : "/img_projects/wheelhouse.png",
+    "imgURL": "/img_projects/wheelhouse.png",
     "description": "A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
   },
   {
@@ -14,8 +14,8 @@
     "name": "Tourbook",
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/hollyhilts/tourbook",
-    "tools" : [ "Ruby on Rails", "Figma", "Javascript", "Active Record" ],
-    "imgURL" : "/img_projects/tourbook_color.png",
+    "tools": ["Ruby on Rails", "Figma", "Javascript", "Active Record"],
+    "imgURL": "/img_projects/tourbook_color.png",
     "description": "Tourbook is a management app for touring bands.  A coordination tools to ensure good logistics and efficient travel. For schedule management and to better appreciate locations and their assets.  Create tours, events and your dream team."
   },
   {
@@ -23,8 +23,8 @@
     "name": "This amazing website",
     "appURL": "https://pascalracinevenne.herokuapp.com/",
     "githubURL": "https://github.com/PascalRacineVenne/pascal_webpage",
-    "tools" : [ "React.js", "Figma" ],
-    "imgURL" : "/img_projects/p_webPage.png",
+    "tools": ["React.js", "Figma"],
+    "imgURL": "/img_projects/p_webpage_dark_blue.png",
     "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."
   }
 ]
