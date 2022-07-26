@@ -1,7 +1,6 @@
 import React from 'react';
-import "./navlinks.css";
-// import Pdf from '../images/resume_PascalRacineVenne_2021.pdf';
-import Pdf from '../images/resume_PascalRacineVenne_2022.jpg';
+import './navlinks.css';
+import Pdf from '../images/Resume Pascal Racine-Venne_jul_2022.jpg';
 import { navLinks } from '../config';
 
 function NavLinks() {
@@ -12,23 +11,31 @@ function NavLinks() {
 
     window.scroll({
       top: offsetTop,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
   }
 
-  return(
-    <div className="navlinks--StyledLinks">
+  return (
+    <div className='navlinks--StyledLinks'>
       <ol>
         {navLinks &&
-         navLinks.map(({ url, name }, i) => (
-          <li key={i}>
-            {/*<a href={url}>{name}</a>*/}
-            <a href={url} onClick={handleClick}>{name}</a>
-          </li>
-        ))}
+          navLinks.map(({ url, name }, i) => (
+            <li key={i}>
+              <a href={url} onClick={handleClick}>
+                {name}
+              </a>
+            </li>
+          ))}
       </ol>
-      <div className="btn">
-        <a href={Pdf} rel="noopener noreferrer" target="_blank"  className="resume-btn" >Resume</a>
+      <div className='btn'>
+        <a
+          href={Pdf}
+          rel='noopener noreferrer'
+          target='_blank'
+          className='resume-btn'
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
