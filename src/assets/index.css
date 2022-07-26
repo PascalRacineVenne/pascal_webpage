@@ -5,35 +5,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu+Mono:wght@400;700&display=swap');
 
 /*// Graphical variables*/
-@import "./stylesheets/config/_fonts.css";
+@import './stylesheets/config/_fonts.css';
 
 :root {
-  --primary_green: #253022;
+  /* --primary_green: #253022;
   --primary_mid_green: #2E3A2B;
   --primary_dark_green: #2B312A;
   --primary_light_green: #DFEFD9;
   --secondary_green: #507844;
   --primary_maroon: #AE4F2F;
   --secondary_maroon: rgba(174, 79, 47, 0.15);
-  --white: #FFFFFF;
+  --white: #FFFFFF; */
 
-  --primary_filter: invert(70%) sepia(98%) saturate(421%) hue-rotate(329deg) brightness(92%) contrast(92%);
-  --secondary_filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg) brightness(91%) contrast(128%);
+  --primary_green: #222730;
+  --primary_mid_green: #2b2e3a;
+  --primary_dark_green: #2a2b31;
+  --primary_light_green: #d9deef;
+  --secondary_green: #446578;
+  --primary_maroon: #ae4f2f;
+  --secondary_maroon: rgba(174, 79, 47, 0.15);
+  --white: #ffffff;
+
+  --primary_filter: invert(70%) sepia(98%) saturate(421%) hue-rotate(329deg)
+    brightness(92%) contrast(92%);
+  --secondary_filter: invert(18%) sepia(2%) saturate(1605%) hue-rotate(62deg)
+    brightness(91%) contrast(128%);
 
   --border-radius: 4px;
   --transition: all 100ms ease-in-out;
   --transition2: all 500ms ease-in-out;
-  --transition3: all 1000ms cubic-bezier(0.645,0.045,0.355,1);
+  --transition3: all 1000ms cubic-bezier(0.645, 0.045, 0.355, 1);
 
   --ham-width: 30px;
   --ham-before: top 100ms ease-in 250ms opacity 100ms ease-in;
   --ham-before-active: top 100ms ease-out, opacity 100ms ease-out 120ms;
-  --ham-after: bottom 100ms ease-in 250ms transform 220ms cubic-bezier(0.55,0.055,0.675,0.19);
-  --ham-after-active: bottom 100ms ease-out, transform 220ms cubic-bezier(0.215, 0.61, 0.355, 1) 120ms;
+  --ham-after: bottom 100ms ease-in 250ms transform 220ms
+    cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ham-after-active: bottom 100ms ease-out,
+    transform 220ms cubic-bezier(0.215, 0.61, 0.355, 1) 120ms;
 }
 
 /*// Your CSS partials*/
-@import "./App.css";
+@import './App.css';
 
 #root {
   min-height: 100vh;
@@ -53,7 +66,6 @@ body {
   line-height: 1.3;
 }
 
-
 html {
   box-sizing: border-box;
   width: 100%;
@@ -63,7 +75,7 @@ html {
 }
 
 *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+*:before,
+*:after {
+  box-sizing: inherit;
+}
