@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className='inner_about_me'>
         <div className='about__StyledText'>
           <p>
-            As a recent graduate of{' '}
+            Since I've graduated from{' '}
             <a
               href='https://www.lewagon.com/'
               className='link_wagon'
@@ -19,7 +19,7 @@ const AboutMe = () => {
             >
               Le Wagon
             </a>{' '}
-            full stack coding bootcamp, my main focus these days is{' '}
+            full stack coding bootcamp, my main focus is{' '}
             <strong>
               building or reproducing accessible and inclusive digital products
             </strong>{' '}
