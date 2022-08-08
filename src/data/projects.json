@@ -13,7 +13,7 @@
     "id": 2,
     "name": "Tourbook",
     "appURL": "https://www.tour-book.xyz/",
-    "githubURL": "https://github.com/hollyhilts/tourbook",
+    "githubURL": "https://github.com/PascalRacineVenne/tourbook",
     "tools": ["Ruby on Rails", "Figma", "Javascript", "Active Record"],
     "imgURL": "/img_projects/tourbook_color.png",
     "description": "Tourbook is a management app for touring bands.  A coordination tools to ensure good logistics and efficient travel. For schedule management and to better appreciate locations and their assets.  Create tours, events and your dream team."

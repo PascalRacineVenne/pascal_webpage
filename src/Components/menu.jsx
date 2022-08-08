@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Burger from './burger';
 import { navLinks } from '../config';
-import Pdf from '../images/Resume Pascal Racine-Venne_jul_2022.jpg';
+import Pdf from '../images/resume PascalRacineVenne.pdf';
 import './menu.css';
 
 const Menu = () => {
