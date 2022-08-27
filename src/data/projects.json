@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Wheelhouse",
-    "appURL": "https://wheel-house.herokuapp.com/",
-    "githubURL": "https://github.com/tsamyin/wheelhouse_app",
-    "tools": ["Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap"],
+    "name": "Matchtastic",
+    "appURL": "https://pascalracinevenne.github.io/memory-game/",
+    "githubURL": "https://github.com/PascalRacineVenne/memory-game",
+    "tools": ["React", "SASS"],
 
-    "imgURL": "/img_projects/wheelhouse.png",
-    "description": "A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
+    "imgURL": "/img_projects/matchtastic.png",
+    "description": "A simple memory Game created to play around with React Hooks and SASS magic"
   },
   {
     "id": 2,
@@ -26,5 +26,15 @@
     "tools": ["React.js", "Figma"],
     "imgURL": "/img_projects/p_webpage_dark_blue.png",
     "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."
+  },
+  {
+    "id": 4,
+    "name": "Wheelhouse",
+    "appURL": "https://wheel-house.herokuapp.com/",
+    "githubURL": "https://github.com/tsamyin/wheelhouse_app",
+    "tools": ["Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap"],
+
+    "imgURL": "/img_projects/wheelhouse.png",
+    "description": "A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
   }
 ]
