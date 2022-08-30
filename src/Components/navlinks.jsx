@@ -1,6 +1,6 @@
 import React from 'react';
 import './navlinks.css';
-import Pdf from '../images/resume PascalRacineVenne.pdf';
+import Pdf from '../images/Resume_PascalRacineVenne_2022.pdf';
 import { navLinks } from '../config';
 
 function NavLinks() {
