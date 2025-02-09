@@ -108,7 +108,7 @@
 
 .project__link {
   padding: 10px;
-  transition: var(--transition);
+  transition: filter 1s ease-in-out;
 }
 
 .project__link:hover {
