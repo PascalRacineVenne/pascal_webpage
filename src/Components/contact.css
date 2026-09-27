@@ -46,3 +46,15 @@
   margin: 10px 0px 50px 0px;
   letter-spacing: 0.5px;
 }
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.contact__links .email-link {
+  margin-top: 0;
+}

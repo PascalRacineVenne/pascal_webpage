@@ -1,18 +1,14 @@
 import React from 'react';
-import Tools from './tools';
 import './tech_skills.css';
-
-import dataSkill from '../data/skill.json';
 
 const TechSkills = () => {
   return (
     <section id='skills' className='skills__StyledSkills'>
-      <h5 className='numbered-heading'>Technological Skills</h5>
-      <div className='inner_tech_skills'>
-        {dataSkill.map((skill) => {
-          return <Tools skill={skill} key={skill.id} />;
-        })}
-      </div>
+      <h5 className='numbered-heading'>What I bring</h5>
+      <p className='skills__StyledText'>
+        Engineering leadership, delivery, product partnership, distributed
+        teams, and a developer's eye for Python, React, and TypeScript.
+      </p>
     </section>
   );
 };

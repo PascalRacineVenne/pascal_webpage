@@ -11,10 +11,10 @@ const Hero = () => {
         <h1 className="hero_BigHeading">Pascal Racine-Venne</h1>
       </div>
       <div>
-        <h3 className="hero_BigHeading">Building for the web is my playground.</h3>
+        <h3 className="hero_BigHeading">Senior Engineering Manager</h3>
       </div>
       <div>
-        <p>I'm a frontend web developer specializing in building great digital experiences.  Currently, I'm focused on gathering different knowledges into accessible and human-oriented projects.</p>
+        <p><em>I build reliable products and the high-trust teams behind them.</em></p>
       </div>
       <div>
         <a href="mailto:pascalracinevenne@gmail.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>

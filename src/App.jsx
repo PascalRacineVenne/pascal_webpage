@@ -3,8 +3,10 @@ import "./Components/FontAwesomeIcons";
 
 import AboutMe from './Components/about_me.jsx';
 import Contact from './Components/contact.jsx';
+import Experience from './Components/experience.jsx';
 import Footer from './Components/footer.jsx';
 import Hero from './Components/hero.jsx';
+import Interests from './Components/interests.jsx';
 import Navbar from './Components/navbar.jsx';
 import ProjectsList from './Components/projects_list.jsx';
 import SideLeft from './Components/side_left.jsx';
@@ -47,7 +49,9 @@ function App() {
           <Hero />
           <AboutMe />
           <TechSkills />
+          <Experience />
           <ProjectsList />
+          <Interests />
           <Contact />
         </div>
         <Footer className="footer"/>

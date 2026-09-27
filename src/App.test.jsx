@@ -2,9 +2,10 @@ import { render, screen } from '@testing-library/react';
 import { test, expect } from 'vitest';
 import App from './App';
 
-test('renders the main sections', () => {
+test('renders every section linked from the nav', () => {
   render(<App />);
-  expect(document.querySelector('#about')).toBeInTheDocument();
-  expect(document.querySelector('#projects')).toBeInTheDocument();
-  expect(screen.getAllByText(/contact/i).length).toBeGreaterThan(0);
+  for (const id of ['about', 'skills', 'experience', 'projects', 'interests', 'contact']) {
+    expect(document.querySelector(`#${id}`)).toBeInTheDocument();
+  }
+  expect(screen.getByText('Senior Engineering Manager')).toBeInTheDocument();
 });

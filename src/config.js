@@ -8,8 +8,16 @@ export const navLinks = [
     url: '#skills',
   },
   {
+    name: 'Experience',
+    url: '#experience',
+  },
+  {
     name: 'Projects',
     url: '#projects',
+  },
+  {
+    name: 'Interests',
+    url: '#interests',
   },
   {
     name: 'Contact',

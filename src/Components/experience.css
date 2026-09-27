@@ -1,0 +1,52 @@
+.experience__StyledExperience {
+  max-width: 900px;
+}
+
+.inner_experience {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.experience__StyledJob {
+  margin-bottom: 32px;
+  padding-left: 20px;
+  border-left: 2px solid var(--secondary_maroon);
+  font-family: var(--body-font);
+  letter-spacing: normal;
+  transition: var(--transition2);
+}
+
+.experience__StyledJob:hover {
+  border-left-color: var(--primary_maroon);
+}
+
+.experience__StyledJob h3 {
+  margin: 0 0 8px;
+  color: var(--white);
+  font-size: clamp(18px, 2vw, 22px);
+}
+
+.experience__dates {
+  font-family: var(--special-font);
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--primary_maroon);
+}
+
+.experience__StyledJob p {
+  margin: 0;
+  max-width: 600px;
+  letter-spacing: 0.5px;
+}
+
+.experience__more {
+  font-family: var(--special-font);
+  color: var(--primary_maroon);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.experience__more:hover {
+  text-decoration: underline;
+}

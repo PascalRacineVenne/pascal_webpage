@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "company": "Nasdaq Metrio",
+    "dates": "2023 – present",
+    "description": "From integration lead to Senior Engineering Manager, building a B2B SaaS platform with teams in Montréal and Bangalore."
+  },
+  {
+    "id": 2,
+    "company": "Le Wagon",
+    "dates": "2021 – 2023",
+    "description": "Taught web development in French and English, including workshops in Indigenous francophone communities."
+  },
+  {
+    "id": 3,
+    "company": "Musician & teacher",
+    "dates": "2000 – 2023",
+    "description": "Twenty-plus years on stage and in the classroom."
+  }
+]
