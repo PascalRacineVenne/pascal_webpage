@@ -7,5 +7,5 @@ test('renders every section linked from the nav', () => {
   for (const id of ['about', 'skills', 'experience', 'projects', 'interests', 'contact']) {
     expect(document.querySelector(`#${id}`)).toBeInTheDocument();
   }
-  expect(screen.getByText('Senior Engineering Manager')).toBeInTheDocument();
+  expect(screen.getByText('Engineering Manager')).toBeInTheDocument();
 });

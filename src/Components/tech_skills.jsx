@@ -7,7 +7,7 @@ const TechSkills = () => {
       <h5 className='numbered-heading'>What I bring</h5>
       <p className='skills__StyledText'>
         Engineering leadership, delivery, product partnership, distributed
-        teams, and a developer's eye for Python, React, and TypeScript.
+        teams, and a developer's eye for React and TypeScript.
       </p>
     </section>
   );

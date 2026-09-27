@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className="hero_BigHeading">Pascal Racine-Venne</h1>
       </div>
       <div>
-        <h3 className="hero_BigHeading">Senior Engineering Manager</h3>
+        <h3 className="hero_BigHeading">Engineering Manager</h3>
       </div>
       <div>
         <p><em>I build reliable products and the high-trust teams behind them.</em></p>
