@@ -1,11 +1,29 @@
 [
   {
+    "id": 6,
+    "name": "Boomshakabox",
+    "appURL": "https://boomshakabox.vercel.app/",
+    "githubURL": "https://github.com/PascalRacineVenne/boomshakabox",
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tone.js",
+      "Vite"
+    ],
+    "imgURL": "/img_projects/boomshakabox.png",
+    "description": "A browser-based drum machine. Eight drum voices synthesized from scratch with Tone.js (no samples), an up-to-64-step sequencer, a shared effects chain with drive, filter, ping-pong delay and reverb, and real-time oscilloscope and spectrum visualizers."
+  },
+  {
     "id": 1,
     "name": "Sky Search",
     "appURL": "https://tranquil-brushlands-65303.herokuapp.com/",
     "githubURL": "https://github.com/PascalRacineVenne/open-weather-2",
-    "tools": ["React", "Node", "Express", "SASS"],
-
+    "tools": [
+      "React",
+      "Node",
+      "Express",
+      "SASS"
+    ],
     "imgURL": "/img_projects/sky-search.png",
     "description": "Classic weather app designed and implemented using React, SASS, NODE & Express"
   },
@@ -14,8 +32,10 @@
     "name": "Matchtastic",
     "appURL": "https://pascalracinevenne.github.io/memory-game/",
     "githubURL": "https://github.com/PascalRacineVenne/memory-game",
-    "tools": ["React", "SASS"],
-
+    "tools": [
+      "React",
+      "SASS"
+    ],
     "imgURL": "/img_projects/matchtastic.png",
     "description": "A simple memory Game created to play around with React Hooks and SASS magic"
   },
@@ -24,27 +44,42 @@
     "name": "Tourbook",
     "appURL": "https://www.tour-book.xyz/",
     "githubURL": "https://github.com/PascalRacineVenne/tourbook",
-    "tools": ["Ruby on Rails", "Figma", "Javascript", "Active Record"],
+    "tools": [
+      "Ruby on Rails",
+      "Figma",
+      "Javascript",
+      "Active Record"
+    ],
     "imgURL": "/img_projects/tourbook_color.png",
-    "description": "*** School Project *** Tourbook is a management app for touring bands.  A coordination tools to ensure good logistics and efficient travel. For schedule management and to better appreciate locations and their assets.  Create tours, events and your dream team."
+    "description": "*** School Project *** Tourbook is a management app for touring bands.  A coordination tools to ensure good logistics and efficient travel. For schedule management and to better appreciate locations and their assets.  Create tours, events and your dream team.",
+    "hidden": true
   },
   {
     "id": 4,
     "name": "This amazing website",
     "appURL": "https://pascalracinevenne.herokuapp.com/",
     "githubURL": "https://github.com/PascalRacineVenne/pascal_webpage",
-    "tools": ["React.js", "Figma"],
+    "tools": [
+      "React.js",
+      "Figma"
+    ],
     "imgURL": "/img_projects/p_webpage_dark_blue.png",
-    "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang."
+    "description": "Did this as an exercice, trying to reproduce with my own tools the work of Web Dev Brittany Chiang.",
+    "hidden": true
   },
   {
     "id": 5,
     "name": "Wheelhouse",
     "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
-    "tools": ["Ruby on Rails", "Mapbox", "Flatpkr", "Bootstrap"],
-
+    "tools": [
+      "Ruby on Rails",
+      "Mapbox",
+      "Flatpkr",
+      "Bootstrap"
+    ],
     "imgURL": "/img_projects/wheelhouse.png",
-    "description": "*** School Project *** A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API."
+    "description": "*** School Project *** A tiny houses rental platform, where we've worked as a team to implement dynamic search engine which locates rental availability via Mapbox geolocation API.",
+    "hidden": true
   }
 ]

@@ -14,7 +14,7 @@ const ProjectsList = () => {
         and I want to be building in it.
       </p>
       <ul className='inner_projects'>
-        {dataProjects.map((project) => {
+        {dataProjects.filter((project) => !project.hidden).map((project) => {
           return <Project project={project} key={project.id} />;
         })}
       </ul>
