@@ -9,8 +9,8 @@ const AboutMe = () => {
       <div className="inner_about_me">
         <div className="about__StyledText">
           <p>
-            I lead a product engineering team building a B2B SaaS platform,
-            working with developers across Montréal and Bangalore.
+            I lead one of the product engineering teams on a B2B SaaS platform,
+            collaborating with engineering teams across Montréal and Bangalore.
           </p>
           <p>
             I came to code after more than twenty years as a professional
