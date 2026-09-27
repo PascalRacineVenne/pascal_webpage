@@ -20,7 +20,7 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <p>&copy; 2022 Pascal Racine-Venne</p>
+            <p>&copy; {new Date().getFullYear()} Pascal Racine-Venne</p>
           </a>
         </div>
       </div>

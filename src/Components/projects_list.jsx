@@ -8,24 +8,13 @@ const ProjectsList = () => {
     <section id='projects' className='projects__StyledProjects'>
       <h5 className='numbered-heading'>Past and current Projects</h5>
       <p className='projects__StyledPresentation'>
-        Since completing{' '}
-        <a
-          href='https://www.lewagon.com/'
-          className='link_wagon'
-          alt='Le Wagon'
-          target='_blank'
-          rel='noreferrer'
-        >
-          Le Wagon
-        </a>
-        's full stack coding bootcamp, I have had the privilege of joining their
-        team as a teacher and workshop instructor for both the French and
-        English programs. Today, I'm looking to join a team as a full stack web
-        developer to deepen and share the knowledge of these languages. Putting
-        these concepts into practice is extremely motivating.
+        Side projects are where I stay curious. I pick technologies that
+        inspire me, sketch an idea, and see how far I can take it. We're in an
+        era where AI can turn "what if" into "here it is" remarkably quickly,
+        and I want to be building in it.
       </p>
       <ul className='inner_projects'>
-        {dataProjects.map((project) => {
+        {dataProjects.filter((project) => !project.hidden).map((project) => {
           return <Project project={project} key={project.id} />;
         })}
       </ul>

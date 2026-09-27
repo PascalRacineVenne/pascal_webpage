@@ -1,8 +1,8 @@
-.skills__StyledSkills {
+.interests__StyledInterests {
   max-width: 900px;
 }
 
-.skills__StyledText {
+.interests__StyledInterests p {
   max-width: 600px;
   letter-spacing: 0.5px;
 }

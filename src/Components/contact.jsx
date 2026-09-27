@@ -6,13 +6,11 @@ const Contact = () => {
     <section id="contact" className="contact__StyledContact">
       <h5 className="numbered-heading contact">Contact</h5>
       <div className="inner_contact">
-        <h2>Get in touch</h2>
-        <p>
-          Please feel free to contact me if you have any questions or want to collaborate on a project.
-          Thank you for passing by and stay tuned for fresh new projects.
-        </p>
-        <div>
-          <a href="mailto:pascalracinevenne@gmail.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>
+        <h2>Let's talk.</h2>
+        <div className="contact__links">
+          <a href="mailto:pascalracinevenne@gmail.com" className="email-link" target="_blank" rel="noreferrer">Email</a>
+          <a href="https://www.linkedin.com/in/pascal-racine-venne" className="email-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/PascalRacineVenne" className="email-link" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
     </section>

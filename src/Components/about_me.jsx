@@ -8,33 +8,21 @@ const AboutMe = () => {
       <h5 className="numbered-heading">About me</h5>
       <div className="inner_about_me">
         <div className="about__StyledText">
-
-          <p><strong>🚀 Engineering Manager | Web Development | Leadership & Innovation</strong></p>
           <p>
-            Passionate about web dev and team management, I help our team build
-            solid, high-performing, and innovative solutions. My role? Making
-            collaboration smoother, improving processes, and driving technical
-            excellence to deliver top-notch products.
+            I lead a product engineering team building a B2B SaaS platform,
+            working with developers across Montréal and Bangalore.
           </p>
-
-          <p>👨‍💻 Tech: Frontend, React,
-            TypeScript, API, scalable architecture.</p>
-            <p>📈 Management: Supportive
-            leadership, mentoring, continuous improvement, agility.</p>
-            <p>🤝 Vision: A
-            work environment where every dev can grow and thrive.</p>
-
           <p>
-          I’ve also been
-            a musician for 25 years, and I’ve always been excited about how
-            music and technology intersect. To me, coding feels like another way
-            to shape and create dynamic material, built on interaction and
-            harmony between languages—just like music!</p>
-            
-            <p>The idea is to find the
-            right balance between innovation, performance, and team well-being.
-            Always curious about new tech trends and best practices in
-            management, I believe that people are the key to success.</p>
+            I came to code after more than twenty years as a professional
+            drummer and music teacher. I still think about teams the way I think
+            about bands: everyone listens, everyone keeps time, and the music
+            matters more than any solo.
+          </p>
+          <p>
+            These days I spend my time partnering with Product, helping
+            distributed teams work well together, and finding ways for AI to
+            take the repetitive work off developers' plates.
+          </p>
         </div>
         <div>
           <Headshot />
