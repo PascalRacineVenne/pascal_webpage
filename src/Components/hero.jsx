@@ -1,5 +1,5 @@
-import React from 'react';
-import './hero.css';
+import React from "react";
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -14,13 +14,22 @@ const Hero = () => {
         <h3 className="hero_BigHeading">Engineering Manager</h3>
       </div>
       <div>
-        <p><em>I build reliable products and the high-trust teams behind them.</em></p>
+        <p>
+          <em>I lead teams that build reliable products.</em>
+        </p>
       </div>
       <div>
-        <a href="mailto:pascalracinevenne@gmail.com" className="email-link" target="_blank" rel="noreferrer">Get in touch</a>
+        <a
+          href="mailto:pascalracinevenne@gmail.com"
+          className="email-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Get in touch
+        </a>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Hero;
