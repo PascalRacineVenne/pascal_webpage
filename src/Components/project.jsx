@@ -5,6 +5,7 @@ import AppLink from '../images/link_logo/external_link.svg';
 import "./project.css";
 
 const Project = ({ project}) => {
+  const mainURL = project.appURL || project.githubURL;
   return (
     <li className="project__StyledProject project__Child">
       <div className="project__StyledContent">
@@ -12,7 +13,7 @@ const Project = ({ project}) => {
           <p>Featured project</p>
           <div>
             <h5 className="project__StyledTitle">
-              <a href={project.appURL} target="_blank" rel="noreferrer">{project.name}</a>
+              <a href={mainURL} target="_blank" rel="noreferrer">{project.name}</a>
             </h5>
           </div>
           <div className="project__StyledDescription">
@@ -33,14 +34,16 @@ const Project = ({ project}) => {
             <a href={project.githubURL} target="_blank" rel="noreferrer"  className="project__link">
               <img src={GithubLogo} alt="github logo" />
             </a>
-            <a href={project.appURL} target="_blank" rel="noreferrer" className="project__link">
-              <img src={AppLink} alt="path logo" />
-            </a>
+            {project.appURL && (
+              <a href={project.appURL} target="_blank" rel="noreferrer" className="project__link">
+                <img src={AppLink} alt="path logo" />
+              </a>
+            )}
           </div>
         </div>
       </div>
       <div className="project__StyledImg">
-        <a href={project.appURL} target="_blank" rel="noreferrer">
+        <a href={mainURL} target="_blank" rel="noreferrer">
           <img src={project.imgURL} alt="App" />
         </a>
       </div>

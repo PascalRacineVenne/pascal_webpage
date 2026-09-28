@@ -16,7 +16,6 @@
   {
     "id": 1,
     "name": "Sky Search",
-    "appURL": "https://tranquil-brushlands-65303.herokuapp.com/",
     "githubURL": "https://github.com/PascalRacineVenne/open-weather-2",
     "tools": [
       "React",
@@ -57,7 +56,6 @@
   {
     "id": 4,
     "name": "This amazing website",
-    "appURL": "https://pascalracinevenne.herokuapp.com/",
     "githubURL": "https://github.com/PascalRacineVenne/pascalracine-venne",
     "tools": [
       "React.js",
@@ -70,7 +68,6 @@
   {
     "id": 5,
     "name": "Wheelhouse",
-    "appURL": "https://wheel-house.herokuapp.com/",
     "githubURL": "https://github.com/tsamyin/wheelhouse_app",
     "tools": [
       "Ruby on Rails",

@@ -75,11 +75,5 @@
     "name": "PostgreSQL",
     "imgURL": "postgresql"
 
-  },
-  {
-    "id": 14,
-    "name": "Heroku",
-    "imgURL": "heroku"
-
   }
 ]

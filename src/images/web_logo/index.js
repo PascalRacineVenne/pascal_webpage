@@ -11,7 +11,6 @@ import cloudinary from './10-cloudinary_6643.svg';
 import sass from './11-sass_7474.svg';
 import github from './12-github_5050.svg';
 import postgresql from './13-postgresql_5050.svg';
-import heroku from './14-heroku_5050.svg';
 
 const WebLogo = {
   html,
@@ -27,7 +26,6 @@ const WebLogo = {
   sass,
   github,
   postgresql,
-  heroku,
 }
 
 export default WebLogo;
