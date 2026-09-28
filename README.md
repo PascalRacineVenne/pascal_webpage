@@ -1,10 +1,47 @@
-## Personal web page create with ReactJS
+# pascalracinevenne.vercel.app
 
-This project started as an exercise to practice what I had learned about React. 
+My personal website: who I am, what I've built, and how to reach me.
 
-### For the little story:
+**Live site:** [pascalracinevenne.vercel.app](https://pascalracinevenne.vercel.app/)
 
-After gaining a lot of new knowledge during my time at Le Wagon Bootcamp, I wanted to create while learning new concepts. Basically, I wanted to face new challenges and expand my sandbox.
+## About
 
+I'm a senior engineering manager, developer, and musician. This site is a small home on the web for my story, my side projects, and a way to get in touch.
 
-#### Next step is too create new accessible and human-oriented projects to share with everyone and this page!
+It's also a playground: I use it to try out technologies that inspire me.
+
+## Built with
+
+<!-- Adjust to match the current stack -->
+- [React](https://react.dev/)
+- Designed in [Figma](https://www.figma.com/)
+- Deployed on [Vercel](https://vercel.com/)
+
+## Getting started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/PascalRacineVenne/<repo-name>.git
+cd <repo-name>
+npm install
+```
+
+Run it locally:
+
+<!-- Use `npm start` if the project uses Create React App, `npm run dev` for Vite or Next.js -->
+```bash
+npm run dev
+```
+
+## Deployment
+
+The site deploys automatically to Vercel on every push to `main`.
+
+## Acknowledgements
+
+The original version of this site was inspired by [Brittany Chiang's](https://brittanychiang.com/) portfolio.
+
+## Contact
+
+[Website](https://pascalracinevenne.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pascal-racine-venne/) · [GitHub](https://github.com/PascalRacineVenne)
