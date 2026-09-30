@@ -18,6 +18,15 @@
     "description": "A sight-reading practice app for musicians learning to identify notes on the musical staff."
   },
   {
+    "id": 8,
+    "name": "Fedora",
+    "appURL": "https://pascalracinevenne.github.io/fedora/",
+    "githubURL": "https://github.com/PascalRacineVenne/fedora",
+    "tools": ["React", "Typescript", "Linaria", "Ant Design"],
+    "imgURL": "/img_projects/fedora.png",
+    "description": "A landing page for a fictional e-commerce hat shop. Built as an exercise in animation and responsive design, with smooth transitions and a layout that adapts from mobile to desktop."
+  },
+  {
     "id": 1,
     "name": "Sky Search",
     "githubURL": "https://github.com/PascalRacineVenne/open-weather-2",
