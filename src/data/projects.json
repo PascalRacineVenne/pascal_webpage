@@ -11,6 +11,7 @@
   {
     "id": 7,
     "name": "KeySight",
+    "appURL": "https://key-sight-theta.vercel.app/",
     "githubURL": "https://github.com/PascalRacineVenne/key-sight",
     "tools": ["React", "Typescript", "VexFlow 5", "Tone.js", "Ant Design"],
     "imgURL": "/img_projects/key_sight.png",
