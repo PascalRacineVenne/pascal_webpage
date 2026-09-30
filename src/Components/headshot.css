@@ -1,10 +1,19 @@
 .headshot_Styled {
-  filter: sepia(30%);
+  display: block;
 }
 
 .wrapper {
-  width: 100%;
-  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  background-color: hsla(166, 100%, 70%, 0.5);
+  mix-blend-mode: multiply;
 }
 
 .wrapper img {
